@@ -5,59 +5,33 @@
 	(uuid "ff3af5e0-ced5-46c8-b126-f01df05577ec")
 	(paper "A4")
 	(lib_symbols
-		(symbol "MCU_Module:RaspberryPi_Pico"
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "A"
-				(at -19.05 35.56 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "RaspberryPi_Pico"
-				(at 7.62 35.56 0)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
-				(at 0 -46.99 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-				(at 0 -49.53 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-				(at 0 -52.07 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb"
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?SMD*"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,24 +49,70 @@
 					(hide yes)
 				)
 			)
-			(symbol "RaspberryPi_Pico_0_1"
-				(rectangle
-					(start -19.05 34.29)
-					(end 19.05 -31.75)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -5.08 34.29) (xy -3.81 33.655) (xy -3.81 31.75) (xy -3.175 31.75)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -101,43 +121,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.429 32.766) (xy -3.429 33.02) (xy -3.175 33.02) (xy -3.175 30.48) (xy -2.921 30.48) (xy -2.921 30.734)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 31.75) (xy -1.905 33.02) (xy -1.905 30.48) (xy -3.175 31.75)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 34.29) (xy -1.27 33.655) (xy -1.27 31.75) (xy -1.905 31.75)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -31.75) (xy 1.27 -31.115) (xy 1.27 -24.13) (xy 18.415 -24.13) (xy 19.05 -22.86)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -148,49 +132,11 @@
 					)
 				)
 			)
-			(symbol "RaspberryPi_Pico_1_1"
+			(symbol "1N4148_1_1"
 				(pin passive line
-					(at -22.86 22.86 0)
-					(length 3.81)
-					(name "RUN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "~{RESET}" passive line)
-				)
-				(pin passive line
-					(at -22.86 20.32 0)
-					(length 3.81)
-					(name "3V3_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "~{3V3_DISABLE}" passive line)
-				)
-				(pin bidirectional line
-					(at -22.86 15.24 0)
-					(length 3.81)
-					(name "GPIO0"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -204,16 +150,11 @@
 							)
 						)
 					)
-					(alternate "I2C0_SDA" bidirectional line)
-					(alternate "PWM0_A" output line)
-					(alternate "SPI0_RX" input line)
-					(alternate "UART0_TX" output line)
-					(alternate "USB_OVCUR_DET" input line)
 				)
-				(pin bidirectional line
-					(at -22.86 12.7 0)
-					(length 3.81)
-					(name "GPIO1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -227,798 +168,6 @@
 							)
 						)
 					)
-					(alternate "I2C0_SCL" bidirectional clock)
-					(alternate "PWM0_B" bidirectional line)
-					(alternate "UART0_RX" input line)
-					(alternate "USB_VBUS_DET" passive line)
-					(alternate "~{SPI0_CSn}" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -22.86 10.16 0)
-					(length 3.81)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "PWM1_A" output line)
-					(alternate "SPI0_SCK" bidirectional clock)
-					(alternate "UART0_CTS" input line)
-					(alternate "USB_VBUS_EN" output line)
-				)
-				(pin bidirectional line
-					(at -22.86 7.62 0)
-					(length 3.81)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SCL" bidirectional clock)
-					(alternate "PWM1_B" bidirectional line)
-					(alternate "SPI0_TX" output line)
-					(alternate "UART0_RTS" output line)
-					(alternate "USB_OVCUR_DET" input line)
-				)
-				(pin bidirectional line
-					(at -22.86 5.08 0)
-					(length 3.81)
-					(name "GPIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C0_SDA" bidirectional line)
-					(alternate "PWM2_A" output line)
-					(alternate "SPI0_RX" input line)
-					(alternate "UART1_TX" output line)
-					(alternate "USB_VBUS_DET" input line)
-				)
-				(pin bidirectional line
-					(at -22.86 2.54 0)
-					(length 3.81)
-					(name "GPIO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C0_SCL" bidirectional clock)
-					(alternate "PWM2_B" bidirectional line)
-					(alternate "UART1_RX" input line)
-					(alternate "USB_VBUS_EN" output line)
-					(alternate "~{SPI0_CSn}" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -22.86 0 0)
-					(length 3.81)
-					(name "GPIO6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "PWM3_A" output line)
-					(alternate "SPI0_SCK" bidirectional clock)
-					(alternate "UART1_CTS" input line)
-					(alternate "USB_OVCUR_DET" input line)
-				)
-				(pin bidirectional line
-					(at -22.86 -2.54 0)
-					(length 3.81)
-					(name "GPIO7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SCL" bidirectional clock)
-					(alternate "PWM3_B" bidirectional line)
-					(alternate "SPI0_TX" output line)
-					(alternate "UART1_RTS" output line)
-					(alternate "USB_VBUS_DET" input line)
-				)
-				(pin bidirectional line
-					(at -22.86 -5.08 0)
-					(length 3.81)
-					(name "GPIO8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C0_SDA" bidirectional line)
-					(alternate "PWM4_A" output line)
-					(alternate "SPI1_RX" input line)
-					(alternate "UART1_TX" output line)
-					(alternate "USB_VBUS_EN" output line)
-				)
-				(pin bidirectional line
-					(at -22.86 -7.62 0)
-					(length 3.81)
-					(name "GPIO9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C0_SCL" bidirectional clock)
-					(alternate "PWM4_B" bidirectional line)
-					(alternate "UART1_RX" input line)
-					(alternate "USB_OVCUR_DET" input line)
-					(alternate "~{SPI1_CSn}" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -22.86 -10.16 0)
-					(length 3.81)
-					(name "GPIO10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "PWM5_A" output line)
-					(alternate "SPI1_SCK" bidirectional clock)
-					(alternate "UART1_CTS" input line)
-					(alternate "USB_VBUS_DET" input line)
-				)
-				(pin bidirectional line
-					(at -22.86 -12.7 0)
-					(length 3.81)
-					(name "GPIO11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SCL" bidirectional clock)
-					(alternate "PWM5_B" bidirectional line)
-					(alternate "SPI1_TX" output line)
-					(alternate "UART1_RTS" output line)
-					(alternate "USB_VBUS_EN" output line)
-				)
-				(pin bidirectional line
-					(at -22.86 -15.24 0)
-					(length 3.81)
-					(name "GPIO12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C0_SDA" bidirectional line)
-					(alternate "PWM6_A" output line)
-					(alternate "SPI1_RX" input line)
-					(alternate "UART0_TX" output line)
-					(alternate "USB_OVCUR_DET" input line)
-				)
-				(pin bidirectional line
-					(at -22.86 -17.78 0)
-					(length 3.81)
-					(name "GPIO13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C0_SCL" bidirectional clock)
-					(alternate "PWM6_B" bidirectional line)
-					(alternate "UART0_RX" input line)
-					(alternate "USB_VBUS_DET" input line)
-					(alternate "~{SPI1_CSn}" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -22.86 -20.32 0)
-					(length 3.81)
-					(name "GPIO14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "PWM7_A" output line)
-					(alternate "SPI1_SCK" bidirectional clock)
-					(alternate "UART0_CTS" input line)
-					(alternate "USB_VBUS_EN" output line)
-				)
-				(pin bidirectional line
-					(at -22.86 -22.86 0)
-					(length 3.81)
-					(name "GPIO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SCL" bidirectional clock)
-					(alternate "PWM7_B" bidirectional line)
-					(alternate "SPI1_TX" output line)
-					(alternate "UART0_RTS" output line)
-					(alternate "USB_OVCUR_DET" input line)
-				)
-				(pin power_in line
-					(at -5.08 38.1 270)
-					(length 3.81)
-					(name "VSYS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "VSYS_OUT" power_out line)
-				)
-				(pin power_out line
-					(at 0 38.1 270)
-					(length 3.81)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "VBUS_IN" power_in line)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -35.56 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GND_IN" power_in line)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 5.08 38.1 270)
-					(length 3.81)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 12.7 180)
-					(length 3.81)
-					(name "GPIO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C0_SDA" bidirectional line)
-					(alternate "PWM0_A" output line)
-					(alternate "SPI0_RX" input line)
-					(alternate "UART0_TX" output line)
-					(alternate "USB_VBUS_DET" input line)
-				)
-				(pin bidirectional line
-					(at 22.86 10.16 180)
-					(length 3.81)
-					(name "GPIO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C0_SCL" bidirectional clock)
-					(alternate "PWM0_B" bidirectional line)
-					(alternate "UART0_RX" input line)
-					(alternate "USB_VBUS_EN" output line)
-					(alternate "~{SPI0_CSn}" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 22.86 7.62 180)
-					(length 3.81)
-					(name "GPIO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "PWM1_A" output line)
-					(alternate "SPI0_SCK" bidirectional clock)
-					(alternate "UART0_CTS" input line)
-					(alternate "USB_OVCUR_DET" input line)
-				)
-				(pin bidirectional line
-					(at 22.86 5.08 180)
-					(length 3.81)
-					(name "GPIO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SCL" bidirectional clock)
-					(alternate "PWM1_B" bidirectional line)
-					(alternate "SPI0_TX" output line)
-					(alternate "UART0_RTS" output line)
-					(alternate "USB_VBUS_DET" input line)
-				)
-				(pin bidirectional line
-					(at 22.86 2.54 180)
-					(length 3.81)
-					(name "GPIO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLOCK_GPIN0" input clock)
-					(alternate "I2C0_SDA" bidirectional line)
-					(alternate "PWM2_A" output line)
-					(alternate "SPI0_RX" input line)
-					(alternate "UART1_TX" output line)
-					(alternate "USB_VBUS_EN" output line)
-				)
-				(pin bidirectional line
-					(at 22.86 0 180)
-					(length 3.81)
-					(name "GPIO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLOCK_GPOUT0" output clock)
-					(alternate "I2C0_SCL" bidirectional clock)
-					(alternate "PWM2_B" bidirectional line)
-					(alternate "UART1_RX" input line)
-					(alternate "USB_OVCUR_DET" input line)
-					(alternate "~{SPI0_CSn}" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 22.86 -2.54 180)
-					(length 3.81)
-					(name "GPIO22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLOCK_GPIN1" input clock)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "PWM3_A" output line)
-					(alternate "SPI0_SCK" bidirectional clock)
-					(alternate "UART1_CTS" input line)
-					(alternate "USB_VBUS_DET" input line)
-				)
-				(pin power_in line
-					(at 22.86 -7.62 180)
-					(length 3.81)
-					(name "ADC_VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -12.7 180)
-					(length 3.81)
-					(name "GPIO26_ADC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC0" input line)
-					(alternate "GPIO26" bidirectional line)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "PWM5_A" output line)
-					(alternate "SPI1_SCK" bidirectional clock)
-					(alternate "UART1_CTS" input line)
-					(alternate "USB_VBUS_EN" output line)
-				)
-				(pin bidirectional line
-					(at 22.86 -15.24 180)
-					(length 3.81)
-					(name "GPIO27_ADC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1" input line)
-					(alternate "GPIO27" bidirectional line)
-					(alternate "I2C1_SCL" bidirectional clock)
-					(alternate "PWM5_B" bidirectional line)
-					(alternate "SPI1_TX" output line)
-					(alternate "UART1_RTS" output line)
-					(alternate "USB_OVCUR_DET" input line)
-				)
-				(pin bidirectional line
-					(at 22.86 -17.78 180)
-					(length 3.81)
-					(name "GPIO28_ADC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2" input line)
-					(alternate "GPIO28" bidirectional line)
-					(alternate "I2C0_SDA" bidirectional line)
-					(alternate "PWM6_A" output line)
-					(alternate "SPI1_RX" input line)
-					(alternate "UART0_TX" output line)
-					(alternate "USB_VBUS_DET" input line)
-				)
-				(pin power_out line
-					(at 22.86 -22.86 180)
-					(length 3.81)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "GND" passive line)
 				)
 			)
 			(embedded_fonts no)
@@ -1338,10 +487,613 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Seeed_Studio_XIAO_Series:XIAO-RP2040-DIP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XIAO-RP2040-DIP"
+				(at 5.334 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
+				(at 14.478 -32.258 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XIAO-RP2040-DIP_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 29.21 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -8.89) (xy -2.54 -8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -8.89) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -2.54 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -1.27 -8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -16.51) (xy -2.54 -16.51)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -16.51) (xy -1.27 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -20.32) (xy -2.54 -20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -24.13) (xy -2.54 -24.13)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -27.94) (xy -2.54 -27.94)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -30.48) (xy -1.27 -16.51)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -2.54) (xy 29.21 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -5.08) (xy 29.21 -8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -8.89) (xy 29.21 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -12.7) (xy 29.21 -30.48)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -30.48) (xy -1.27 -30.48)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -5.08) (xy 29.21 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -8.89) (xy 29.21 -8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -12.7) (xy 29.21 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -16.51) (xy 29.21 -16.51)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -20.32) (xy 29.21 -20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -24.13) (xy 29.21 -24.13)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -27.94) (xy 29.21 -27.94)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 -5.08 0)
+					(length 2.54)
+					(name "GPIO26/ADC0/A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 0)
+					(length 2.54)
+					(name "GPIO27/ADC1/A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -12.7 0)
+					(length 2.54)
+					(name "GPIO28/ADC2/A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -16.51 0)
+					(length 2.54)
+					(name "GPIO29/ADC3/A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -20.32 0)
+					(length 2.54)
+					(name "GPIO6/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -24.13 0)
+					(length 2.54)
+					(name "GPIO7/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -27.94 0)
+					(length 2.54)
+					(name "GPIO0/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -12.7 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -16.51 180)
+					(length 2.54)
+					(name "GPIO3/MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -20.32 180)
+					(length 2.54)
+					(name "GPIO4/MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -24.13 180)
+					(length 2.54)
+					(name "GPIO2/SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -27.94 180)
+					(length 2.54)
+					(name "GPIO1/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(global_label "S3"
+	(global_label "col2"
 		(shape input)
-		(at 64.77 58.42 270)
+		(at 129.54 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1349,9 +1101,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0b38b638-e131-43d2-93ca-5f7781310179")
+		(uuid "04a8a3eb-f8f5-4bf3-866d-3f07b0c6c46e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 63.8242 90)
+			(at 129.54 90.9175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,9 +1113,31 @@
 			)
 		)
 	)
-	(global_label "S8"
+	(global_label "col0"
 		(shape input)
-		(at 41.91 151.13 180)
+		(at 88.9 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05f74a99-cf73-4660-9a4f-fd8b05971a6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.9975 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 53.34 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1371,9 +1145,9 @@
 			)
 			(justify right)
 		)
-		(uuid "10c4b532-3f08-46c7-a809-a56f9f78af5a")
+		(uuid "09473087-c297-4b80-a4e9-98143d3fa5c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 151.13 0)
+			(at 46.2425 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,9 +1157,9 @@
 			)
 		)
 	)
-	(global_label "S10"
+	(global_label "col0"
 		(shape input)
-		(at 217.17 58.42 270)
+		(at 85.09 66.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1393,9 +1167,9 @@
 			)
 			(justify right)
 		)
-		(uuid "10e50f38-5aac-4fe2-ad74-17e0668d28d0")
+		(uuid "22d9a34f-8dcc-4368-869a-ae84c35fcb06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.17 65.0337 90)
+			(at 85.09 73.1375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,9 +1179,31 @@
 			)
 		)
 	)
-	(global_label "S12"
+	(global_label "row1"
 		(shape input)
-		(at 259.08 58.42 270)
+		(at 114.3 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35bc7ed6-0b6a-4e3b-837a-50ba17e62b69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 68.7396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 129.54 66.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1415,9 +1211,9 @@
 			)
 			(justify right)
 		)
-		(uuid "13bdc176-7aa5-4842-8e33-1565ef30d216")
+		(uuid "36cc054d-123f-4c67-b5bd-8504dd0acd71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 65.0337 90)
+			(at 129.54 73.1375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,9 +1223,9 @@
 			)
 		)
 	)
-	(global_label "S11"
+	(global_label "col1"
 		(shape input)
-		(at 237.49 58.42 270)
+		(at 106.68 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1437,9 +1233,9 @@
 			)
 			(justify right)
 		)
-		(uuid "15a5e35e-d901-495f-aeec-299faaca8eb9")
+		(uuid "38e3bc1c-7177-434c-bd4d-ead9ad5eed65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 65.0337 90)
+			(at 106.68 109.9675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,9 +1245,75 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "row2"
 		(shape input)
-		(at 144.78 58.42 270)
+		(at 114.3 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e9ad986-83d4-469f-b581-f35c8422ac76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 87.7896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 69.85 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46fcadc2-3412-4a83-b5a9-4c0aef13ee87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 68.7396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 91.44 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4dab18ed-c2c5-4a2f-bc2b-2d8698559c65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 87.7896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 53.34 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1459,9 +1321,9 @@
 			)
 			(justify right)
 		)
-		(uuid "199e41db-af00-4bf7-be66-b1002aa05307")
+		(uuid "4f9e870a-8787-4e4e-8c99-d19840aa0a70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 65.2757 90)
+			(at 46.2425 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,9 +1333,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "col0"
 		(shape input)
-		(at 64.77 184.15 270)
+		(at 85.09 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1481,9 +1343,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1fe335a8-bded-49c8-914f-f12731e01a42")
+		(uuid "50a982f8-6925-434c-a288-f7d4ba0278d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 191.0057 90)
+			(at 85.09 90.9175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,9 +1355,9 @@
 			)
 		)
 	)
-	(global_label "S9"
+	(global_label "row0"
 		(shape input)
-		(at 41.91 153.67 180)
+		(at 53.34 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1503,9 +1365,9 @@
 			)
 			(justify right)
 		)
-		(uuid "26c3e3f3-3b68-4466-942f-57dd2bb7c867")
+		(uuid "608503fa-0da7-45a3-b107-040babe762b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 153.67 0)
+			(at 45.8796 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,9 +1377,31 @@
 			)
 		)
 	)
-	(global_label "S6"
+	(global_label "row0"
 		(shape input)
-		(at 129.54 58.42 270)
+		(at 135.89 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69b0b3d3-132a-49b3-862e-563a7bc3ee0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 50.9596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 106.68 84.2302 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1525,9 +1409,9 @@
 			)
 			(justify right)
 		)
-		(uuid "279ef257-0771-43be-8ea9-45f226866a25")
+		(uuid "6ff6e04a-0ff9-4e55-a713-1b2ab4977933")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 63.8242 90)
+			(at 106.68 91.3277 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,9 +1421,9 @@
 			)
 		)
 	)
-	(global_label "S5"
+	(global_label "col2"
 		(shape input)
-		(at 107.95 58.42 270)
+		(at 129.54 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1547,9 +1431,9 @@
 			)
 			(justify right)
 		)
-		(uuid "281771ac-1946-4fbe-a1f1-b0009ea1cb65")
+		(uuid "71e04001-97ac-4481-a898-13e3f2840d23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 63.8242 90)
+			(at 129.54 109.9675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,9 +1443,75 @@
 			)
 		)
 	)
-	(global_label "S9"
+	(global_label "row1"
 		(shape input)
-		(at 195.58 58.42 270)
+		(at 91.44 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c789bca-1063-443d-b963-4c905cabfb75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 68.7396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 91.44 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91d1e270-82a3-464a-9751-b5e188840bda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 50.9596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 69.85 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91ff1a5c-1b14-4cb3-b73b-a4be4d182e9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 50.9596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape input)
+		(at 85.09 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1569,9 +1519,9 @@
 			)
 			(justify right)
 		)
-		(uuid "377b5aa7-6246-468a-a649-2b70595599b3")
+		(uuid "9f167381-321a-43e3-82c5-c87e594cac20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 63.8242 90)
+			(at 85.09 109.9675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,9 +1531,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "col3"
 		(shape input)
-		(at 80.01 58.42 270)
+		(at 151.13 102.87 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1591,9 +1541,9 @@
 			)
 			(justify right)
 		)
-		(uuid "37afb732-2b88-4791-bbc9-1020e1f19cfc")
+		(uuid "a102d71a-db4b-4ef0-b03b-a0193689c2a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 65.2757 90)
+			(at 151.13 109.9675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,9 +1553,9 @@
 			)
 		)
 	)
-	(global_label "S7"
+	(global_label "col1"
 		(shape input)
-		(at 152.4 58.42 270)
+		(at 106.68 66.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1613,9 +1563,9 @@
 			)
 			(justify right)
 		)
-		(uuid "39ad928c-5eb8-4ad6-9200-cf758cb48383")
+		(uuid "a91a4ce8-e83d-4151-9b50-723b654139e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 63.8242 90)
+			(at 106.68 73.1375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,9 +1575,97 @@
 			)
 		)
 	)
-	(global_label "S10"
+	(global_label "row2"
 		(shape input)
-		(at 41.91 156.21 180)
+		(at 88.9 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b86d1490-03f5-4ec3-9340-01dc198357e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.3604 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 135.89 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd986590-21be-45eb-96fe-ac845ee6ee4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 68.7396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 88.9 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c21f3d4e-11b0-4497-a94e-4c60071b9e21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.9975 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 135.89 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0734c14-e28c-4fea-b8b1-414aa20c4491")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 87.7896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 151.13 66.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1635,9 +1673,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5497c8d0-9ec5-45bc-9f2c-9dc210cf304a")
+		(uuid "e3f7dc6b-8644-49c9-9d9f-b78f142b2280")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.2963 156.21 0)
+			(at 151.13 73.1375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,9 +1685,53 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "row1"
 		(shape input)
-		(at 232.41 58.42 270)
+		(at 88.9 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1deaf6d-8140-4d94-9ebc-0cbca2d0dc28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.3604 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 69.85 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5d0e8f2-4708-4a68-84e6-5fd5c6417855")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 87.7896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 151.13 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1657,9 +1739,9 @@
 			)
 			(justify right)
 		)
-		(uuid "73a34631-16f6-4694-81be-4097c6997874")
+		(uuid "f73ef451-59af-4493-8dff-507518aee062")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 65.2757 90)
+			(at 151.13 90.9175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,493 +1751,31 @@
 			)
 		)
 	)
-	(global_label "S7"
+	(global_label "row0"
 		(shape input)
-		(at 41.91 148.59 180)
+		(at 114.3 58.42 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "882211b4-1995-4993-a8f7-0ed71b988b59")
+		(uuid "ff374f79-8994-49a2-a063-3afe1b94c537")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 148.59 0)
+			(at 114.3 50.9596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S1"
-		(shape input)
-		(at 21.59 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91d51844-0c64-48e5-8218-c4be97a9d84c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 63.8242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 101.6 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "942dafba-e33b-4926-978b-0a71c64887a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 65.2757 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S1"
-		(shape input)
-		(at 41.91 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9932cdca-0a09-49f0-ae12-7c0609586a6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 123.19 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "99ff0dbe-309a-48dd-9c97-5e041a8a0044")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 65.2757 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 36.83 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e35d1f2-c440-4b7d-85b7-a62b8b38d9fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 65.2757 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S3"
-		(shape input)
-		(at 41.91 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac0b19a7-8117-4426-895b-041e217844a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 167.64 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ade8354a-2a4d-465a-a75c-489353f0474f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 65.2757 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S4"
-		(shape input)
-		(at 86.36 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae1a6d58-adc9-4d27-be76-027a91d52a40")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 63.8242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 210.82 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5657d0b-76e3-49c1-80d2-6fc8210ad9f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 65.2757 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S8"
-		(shape input)
-		(at 173.99 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c34a2fce-956a-4996-a86c-de68f945eab9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 63.8242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S2"
-		(shape input)
-		(at 41.91 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5e373a6-702e-42a9-8c07-0e2d0b818d9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S4"
-		(shape input)
-		(at 41.91 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb0cf87a-3962-450c-890a-56db8c4d3e37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 274.32 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce5e98cd-9dc8-40ac-9664-5fa7939bf90b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.32 65.2757 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S12"
-		(shape input)
-		(at 41.91 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d2fa0b27-ef78-4824-bf5a-e2f24333654f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.2963 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 189.23 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d81d322a-70f0-452a-b940-3f6427d62f68")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 65.2757 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S6"
-		(shape input)
-		(at 41.91 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d876c190-0072-4c55-a536-04276a1ce513")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S11"
-		(shape input)
-		(at 41.91 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa6bf6b8-bbb0-4860-8723-92eb58d33686")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.2963 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 58.42 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa7cd844-b7b0-46fb-bf65-3e2ad5cca96f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 65.2757 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S5"
-		(shape input)
-		(at 41.91 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fb4d810a-c11d-46d5-a10a-4d9b2fdfde62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5058 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 252.73 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc9743fc-afe2-4e84-9861-10c23d0c5b86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.73 65.2757 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S2"
-		(shape input)
-		(at 43.18 58.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ffbc14f5-e026-4b77-8a5e-8f469b0b3a27")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 63.8242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 224.79 58.42 0)
+		(at 99.06 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2164,7 +1784,7 @@
 		(fields_autoplaced yes)
 		(uuid "0083869a-bcfb-4322-8dcc-6bdf7858e4da")
 		(property "Reference" "S10"
-			(at 224.79 49.53 0)
+			(at 99.06 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,15 +1792,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 224.79 52.07 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 224.79 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +1810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +1819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +1828,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +1838,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +1848,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +1858,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +1868,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +1878,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +1888,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +1898,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +1908,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +1918,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +1928,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +1938,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +1948,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +1958,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 224.79 58.42 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,8 +1983,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 129.54 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "031f5267-013c-44f1-9849-8d4cbd2f04eb")
+		(property "Reference" "D7"
+			(at 132.08 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 132.08 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0d9e316-4562-46ed-8c0d-834b5ac60ce7")
+		)
+		(pin "2"
+			(uuid "9e8fe0a0-ed18-44ee-bb5c-7766abb8ea59")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 203.2 58.42 0)
+		(at 77.47 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2373,7 +2081,7 @@
 		(fields_autoplaced yes)
 		(uuid "1930e111-6361-45a5-a3cd-7736e59fcfd6")
 		(property "Reference" "S9"
-			(at 203.2 49.53 0)
+			(at 77.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,15 +2089,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 203.2 52.07 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 203.2 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2125,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2135,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +2145,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2155,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +2165,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +2175,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2185,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +2195,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2205,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2215,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2225,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2235,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2245,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2255,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 203.2 58.42 0)
+			(at 77.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,8 +2280,360 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 85.09 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a624699-47ea-478f-a7dc-aaeb7d6e63cc")
+		(property "Reference" "D1"
+			(at 87.63 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 87.63 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c97f311c-eed9-43ac-ae9d-b64d80f83002")
+		)
+		(pin "2"
+			(uuid "4551f2d5-c16f-4a30-ad28-e32fe88e49de")
+		)
+		(instances
+			(project ""
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 151.13 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dec1a26-c8f1-4e55-b460-c0240a83a8a1")
+		(property "Reference" "D4"
+			(at 153.67 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 153.67 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36654105-fc6f-4571-8289-888ae712ace1")
+		)
+		(pin "2"
+			(uuid "27a64268-5b54-4f67-9de4-eb555efa347b")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 151.13 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "202645bb-cc42-4b5c-ac8e-40154d1cc1ea")
+		(property "Reference" "D9"
+			(at 153.67 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 153.67 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7be65e39-cddc-4d2e-a41a-ba1eef51113e")
+		)
+		(pin "2"
+			(uuid "98267927-f628-4837-8220-2d0394c42805")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 106.68 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d393212-4c24-4033-9de5-d15e777c8044")
+		(property "Reference" "D11"
+			(at 109.22 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 109.22 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe5e69d5-b48b-4cfe-9a38-8879c18362de")
+		)
+		(pin "2"
+			(uuid "6ba80d69-454a-4578-bcf2-e312ced851c9")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 29.21 58.42 0)
+		(at 77.47 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2582,7 +2642,7 @@
 		(fields_autoplaced yes)
 		(uuid "44514362-e53f-4070-ab0c-3a1b441f3e5b")
 		(property "Reference" "S1"
-			(at 29.21 49.53 0)
+			(at 77.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,15 +2650,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 29.21 52.07 0)
+			(at 77.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 29.21 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2677,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2686,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2636,7 +2696,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2706,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2716,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2726,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2736,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2746,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2756,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2766,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2776,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2786,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2796,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2806,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2816,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 29.21 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,8 +2841,184 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 151.13 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5166bba6-f01c-4180-8e3a-027c89047381")
+		(property "Reference" "D8"
+			(at 153.67 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 153.67 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0a9d491-fb7e-467f-a15c-6c3ec5f7fc1f")
+		)
+		(pin "2"
+			(uuid "a305c88a-b36f-4f2f-851d-f494a3fd973b")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 129.54 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63ddc83e-6b72-4512-be17-3d3041101ae4")
+		(property "Reference" "D10"
+			(at 132.08 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 132.08 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26b03d48-d0f7-4e93-beb3-6f00f3e47025")
+		)
+		(pin "2"
+			(uuid "d5965e7f-65fa-4c42-bb6b-a6088321b4da")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 245.11 58.42 0)
+		(at 121.92 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2791,7 +3027,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d909b02-b268-4113-9eff-fb4c8ceaacf9")
 		(property "Reference" "S11"
-			(at 245.11 49.53 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,15 +3035,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 245.11 52.07 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 245.11 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +3053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +3062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +3071,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +3081,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +3091,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +3101,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +3111,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +3121,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +3131,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +3141,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +3151,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +3161,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +3171,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +3181,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +3191,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3201,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 245.11 58.42 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +3227,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 137.16 58.42 0)
+		(at 99.06 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3000,7 +3236,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a43b378-0692-483d-9d6e-2d97af5dc981")
 		(property "Reference" "S6"
-			(at 137.16 49.53 0)
+			(at 99.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,15 +3244,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 137.16 52.07 0)
+			(at 99.06 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 137.16 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3271,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +3280,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +3290,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +3300,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3310,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3320,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3330,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3340,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3350,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +3360,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3370,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3380,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3390,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,7 +3400,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3410,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 137.16 58.42 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3436,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 93.98 58.42 0)
+		(at 143.51 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3209,7 +3445,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0e668c1-e96d-4eb4-a26c-5fe24b563b22")
 		(property "Reference" "S4"
-			(at 93.98 49.53 0)
+			(at 143.51 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,15 +3453,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 93.98 52.07 0)
+			(at 143.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 93.98 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +3471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3480,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3489,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3499,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3509,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3519,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +3529,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +3539,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3549,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3559,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3569,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3579,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3589,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3599,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3609,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3619,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 93.98 58.42 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,16 +3645,15 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 181.61 58.42 0)
+		(at 143.51 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a41eedff-9f6f-4884-87cb-07bc092c4cc9")
 		(property "Reference" "S8"
-			(at 181.61 49.53 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,15 +3661,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 181.61 52.07 0)
+			(at 143.51 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 181.61 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,7 +3679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +3697,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3707,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3717,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3727,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3737,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3747,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3757,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3767,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3777,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3787,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3797,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3807,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3817,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3827,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 181.61 58.42 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 115.57 58.42 0)
+		(at 77.47 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3627,7 +3862,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5b81ce5-64a9-4035-9843-e51343903bbc")
 		(property "Reference" "S5"
-			(at 115.57 49.53 0)
+			(at 77.47 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,15 +3870,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 115.57 52.07 0)
+			(at 77.47 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 115.57 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3906,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3916,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +3926,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3936,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3946,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3956,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3966,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3976,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3986,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +3996,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +4006,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +4016,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +4026,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +4036,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 115.57 58.42 0)
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +4062,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 72.39 58.42 0)
+		(at 121.92 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3836,7 +4071,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4aedc9d-a04e-4c09-b101-c6fcff86d682")
 		(property "Reference" "S3"
-			(at 72.39 49.53 0)
+			(at 121.92 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,15 +4079,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 72.39 52.07 0)
+			(at 121.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 72.39 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +4097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +4106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +4115,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +4125,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +4135,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +4145,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +4155,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4165,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +4175,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +4185,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4195,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4205,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4215,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4225,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4235,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4245,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 72.39 58.42 0)
+			(at 121.92 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4271,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 50.8 58.42 0)
+		(at 99.06 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4045,7 +4280,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7ce4104-d156-4571-9b28-288b0274857f")
 		(property "Reference" "S2"
-			(at 50.8 49.53 0)
+			(at 99.06 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,15 +4288,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 50.8 52.07 0)
+			(at 99.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 50.8 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,7 +4306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4315,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4324,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4334,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4344,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4354,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4364,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4374,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4384,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4394,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4404,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4414,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4424,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4434,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4444,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4454,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 50.8 58.42 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,44 +4479,35 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Module:RaspberryPi_Pico")
-		(at 64.77 148.59 0)
+		(lib_id "Diode:1N4148")
+		(at 129.54 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d85c7453-d4b6-498c-916b-7015d65081d2")
-		(property "Reference" "A1"
-			(at 66.9133 182.88 0)
+		(uuid "c00d1ffd-dcfc-411c-bd22-2213c2c80927")
+		(property "Reference" "D3"
+			(at 132.08 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "RaspberryPi_Pico"
-			(at 66.9133 185.42 0)
+		(property "Value" "1N4148"
+			(at 132.08 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
-			(at 64.77 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 64.77 198.12 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,8 +4515,279 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-			(at 64.77 200.66 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0cc2666-2c00-4868-98a5-b20abbb91a3c")
+		)
+		(pin "2"
+			(uuid "2aa683eb-df48-43e4-9c75-7922efca3301")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 106.68 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c87eedda-d3d2-413d-9df5-ced8482c31f3")
+		(property "Reference" "D6"
+			(at 109.22 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 109.22 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89186c1f-50a3-4def-b91d-1eae0cb51ed6")
+		)
+		(pin "2"
+			(uuid "137f753d-299b-464e-9406-3871cc1f789f")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 106.68 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d40a8ebf-d1e5-4261-bc2f-b24f6ed63682")
+		(property "Reference" "D2"
+			(at 109.22 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 109.22 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae8ef6e2-fdc5-42a1-8d2d-38ed4f60ba41")
+		)
+		(pin "2"
+			(uuid "b95fc52b-df7b-4d60-ac0c-e9abbef275fd")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_Studio_XIAO_Series:XIAO-RP2040-DIP")
+		(at 57.15 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de8616a8-ad3a-4285-ac73-cee36bb23a2f")
+		(property "Reference" "U1"
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO-RP2040-DIP"
+			(at 71.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:XIAO-RP2040-DIP"
+			(at 71.628 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,129 +4796,227 @@
 			)
 		)
 		(pin "3"
-			(uuid "1149a127-3d8f-4c7f-8aa0-4e10f312564d")
-		)
-		(pin "10"
-			(uuid "4463d639-05a1-4f97-957c-76e2d914b05a")
-		)
-		(pin "12"
-			(uuid "03b2d64f-5218-44e4-8674-7115e0df03da")
-		)
-		(pin "14"
-			(uuid "2868f0cf-621f-4f74-ab44-ec77d195266d")
-		)
-		(pin "20"
-			(uuid "bdf699f8-3ced-4050-aa37-0a7289fb4586")
-		)
-		(pin "18"
-			(uuid "4699af5b-2600-4075-b140-41c878428bec")
-		)
-		(pin "9"
-			(uuid "bf8ab09b-f189-48a5-950d-42105944cac9")
-		)
-		(pin "40"
-			(uuid "c154b60f-c400-4eff-b06a-85abc900c9b8")
-		)
-		(pin "11"
-			(uuid "732444eb-e858-4c28-80d2-62f2e59c7f7b")
-		)
-		(pin "39"
-			(uuid "c3d0a498-6841-4ab1-afec-82c863df4405")
-		)
-		(pin "23"
-			(uuid "8717b3dc-930d-45b8-9b77-71aba7230646")
-		)
-		(pin "6"
-			(uuid "d22b07e8-cd5f-48f2-b93e-eb9968dac0e0")
-		)
-		(pin "2"
-			(uuid "008e1006-5c86-4e3c-a683-e85bf3b021a9")
-		)
-		(pin "7"
-			(uuid "5d01d586-a0fa-4afb-9884-c404febe1d4d")
-		)
-		(pin "4"
-			(uuid "6f2b850a-c0cc-43bf-bf33-099addb369ab")
-		)
-		(pin "15"
-			(uuid "cda9a2f1-2278-47dc-bb21-550f0fd0fa81")
-		)
-		(pin "17"
-			(uuid "62f9d465-2219-4ab0-a89f-9f93cba5196f")
+			(uuid "2fcb56df-49be-4542-83d8-089eea5616af")
 		)
 		(pin "5"
-			(uuid "cceee713-d2f6-4f64-851f-2af4029e5b41")
+			(uuid "35794c3d-34f1-47b5-b6f4-9bc0538bf0dc")
 		)
-		(pin "16"
-			(uuid "5412a1cb-bde8-4370-964a-134ad30d7d5a")
-		)
-		(pin "1"
-			(uuid "2d5854e7-e225-4727-8338-472755727312")
-		)
-		(pin "19"
-			(uuid "18983c92-2eba-4cf5-a89d-e9280a460426")
-		)
-		(pin "37"
-			(uuid "9aca1244-6e0d-4513-91be-e88fcf7ab41a")
+		(pin "2"
+			(uuid "9cae2bcc-ca5e-4875-8ad2-9f7d149297bd")
 		)
 		(pin "13"
-			(uuid "efc78354-b270-4e3b-9f49-590b96df55c3")
+			(uuid "7854505d-26c6-489f-9097-03cd8dc4cd57")
 		)
-		(pin "30"
-			(uuid "ea26c41d-2a65-41a5-8bea-932b21c80553")
+		(pin "12"
+			(uuid "23cfd0c9-26ea-42db-a8eb-d66ad95bebd9")
 		)
-		(pin "28"
-			(uuid "d0406dc8-532d-453e-85c6-23ab607a848a")
+		(pin "11"
+			(uuid "5053a0af-3200-4f0b-8f3d-657f7aafcc04")
 		)
-		(pin "24"
-			(uuid "e6b2c148-0273-4138-940b-2029f7030b55")
+		(pin "10"
+			(uuid "4d9550f5-f8da-4d94-a83c-3138f6279a8a")
+		)
+		(pin "1"
+			(uuid "3cafdfe2-0b33-48dc-a075-874b3ccd7264")
+		)
+		(pin "6"
+			(uuid "31793a5f-3048-4f28-80f3-1dd03365969d")
+		)
+		(pin "7"
+			(uuid "45ac1748-7812-4683-9a86-3ba78de0b49f")
+		)
+		(pin "4"
+			(uuid "c48ae246-a72a-4762-94ff-d7603363b117")
+		)
+		(pin "9"
+			(uuid "658d059a-6ce6-4be0-ac8e-9820f6eedbc7")
+		)
+		(pin "14"
+			(uuid "5f00e387-863c-4b9b-8d5e-1b53152662a8")
 		)
 		(pin "8"
-			(uuid "1fa0d1e5-076e-4ced-85d5-1ef83f9bae95")
-		)
-		(pin "38"
-			(uuid "8423d216-2671-4366-ac84-f7fab0b1dade")
-		)
-		(pin "22"
-			(uuid "308664d4-ef82-4983-a77f-9db61800425f")
-		)
-		(pin "35"
-			(uuid "3ef4255f-ca50-4c3e-857d-c4225b5df98d")
-		)
-		(pin "21"
-			(uuid "fd3d3ed3-0d7e-473e-b4fa-0ef71d57c01f")
-		)
-		(pin "34"
-			(uuid "61e60855-27c6-46fd-9a49-a1669ce4e1a0")
-		)
-		(pin "36"
-			(uuid "7871a48b-8035-4bab-9c53-12c4359efabf")
-		)
-		(pin "25"
-			(uuid "e9170df0-0676-419b-b422-de7532755a58")
-		)
-		(pin "27"
-			(uuid "62eab838-42c4-41f2-a808-5095d56f9327")
-		)
-		(pin "26"
-			(uuid "4ea745e4-b2a7-489e-b7fe-de386b0a41bd")
-		)
-		(pin "32"
-			(uuid "b8dd2141-68a6-487c-9342-4a231f63b151")
-		)
-		(pin "33"
-			(uuid "332560e4-f838-4834-872f-18309322b8c6")
-		)
-		(pin "31"
-			(uuid "9717dd33-83d7-430a-a7fd-6501a38475a2")
-		)
-		(pin "29"
-			(uuid "1fb07e38-ccd4-401a-a7a4-98c541900ecc")
+			(uuid "44ea273e-e3fe-453a-87b5-d5b4db654f90")
 		)
 		(instances
 			(project ""
 				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
-					(reference "A1")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 85.09 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df077ecf-2303-455f-b466-97c68e93f674")
+		(property "Reference" "D5"
+			(at 87.63 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 87.63 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 85.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 85.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 85.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61808938-289f-461a-9830-54c4ab506e2e")
+		)
+		(pin "2"
+			(uuid "29eb072a-d177-4092-ac6f-adc0453395a7")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 85.09 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb82a65-c1e1-4bf3-90cf-e3263f9752a1")
+		(property "Reference" "D12"
+			(at 87.63 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 87.63 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6993fcd3-474a-4e61-a151-e0e8273d1424")
+		)
+		(pin "2"
+			(uuid "963bb99c-9498-4f5e-8409-7854e536bd53")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4429,7 +5024,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 266.7 58.42 0)
+		(at 143.51 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4438,7 +5033,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7dc5831-4f7d-46e8-ac45-1fc15f448d85")
 		(property "Reference" "S12"
-			(at 266.7 49.53 0)
+			(at 143.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,15 +5041,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 266.7 52.07 0)
+			(at 143.51 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 266.7 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +5059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +5068,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +5077,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +5087,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +5097,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +5107,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +5117,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4532,7 +5127,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +5137,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +5147,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +5157,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +5167,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +5177,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +5187,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +5197,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +5207,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 266.7 58.42 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +5233,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 160.02 58.42 0)
+		(at 121.92 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4647,7 +5242,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcebd811-74f9-48d8-a4a0-540aded727d9")
 		(property "Reference" "S7"
-			(at 160.02 49.53 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,15 +5250,15 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 160.02 52.07 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX1A-11NN:SW_MX1A-11NN"
-			(at 160.02 58.42 0)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +5268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +5277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +5286,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +5296,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +5306,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +5316,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +5326,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +5336,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,7 +5346,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +5356,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +5366,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +5376,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +5386,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +5396,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +5406,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +5416,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 160.02 58.42 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
