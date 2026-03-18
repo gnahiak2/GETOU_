@@ -398,7 +398,7 @@
 			(at -8.5 -12 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "00307956-4245-4644-9565-21f896b3f4bd")
+			(uuid "fa3cbc95-ebc9-41e7-a2f1-2ddd8e658d5b")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -410,7 +410,7 @@
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e0ce3d78-7c2e-4e86-8c53-6d7ee4153453")
+			(uuid "fb554faa-f3c9-4d67-af30-8c94b88e1ca4")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -423,7 +423,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5daf4f92-c0f5-43a6-85d4-59b652c9b556")
+			(uuid "799a83aa-48d9-42a3-8b4a-7b31841963a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,7 +436,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f46d311e-7b06-4cec-9217-176d331b5bdd")
+			(uuid "1c6be539-f7eb-4397-a6a0-d1bdbcf07617")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9072,55 +9072,16 @@
 			)
 		)
 	)
-	(gr_line
-		(start 203.5 93)
-		(end 203.5 60.5)
+	(gr_rect
+		(start 92 62)
+		(end 201.5 121.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "344d6d8d-5814-4507-87f2-9fc60df704de")
-	)
-	(gr_line
-		(start 203.5 60.5)
-		(end 92 60.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "a8b23c4d-59c0-4684-8953-509ae2320b03")
-	)
-	(gr_line
-		(start 92 60.5)
-		(end 92 122.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e37bc8b3-b786-479e-82a1-6a6d598d9648")
-	)
-	(gr_line
-		(start 203.5 122.5)
-		(end 203.5 93)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e86c651b-b9ca-4f70-bd3d-9a097c28b0bf")
-	)
-	(gr_line
-		(start 92 122.5)
-		(end 203.5 122.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "fcea2bfa-adf1-4c42-9f5a-f2d5fa212226")
+		(uuid "004f1d38-aeb1-4004-bcda-bf945f2e58e2")
 	)
 	(segment
 		(start 109.256 69.2234)
@@ -10774,7 +10735,7 @@
 		(net 0)
 		(net_name "")
 		(layer "Edge.Cuts")
-		(uuid "e7458c70-c1ea-48d8-bba4-83b60cd6c664")
+		(uuid "345c45a2-f1ae-49a1-b020-47dabeb5c44a")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0.5)
@@ -10787,7 +10748,7 @@
 		)
 		(polygon
 			(pts
-				(xy 203.5 60.5) (xy 203.5 122.5) (xy 92 122.5) (xy 92 60.5)
+				(xy 201.5 62) (xy 201.5 121.5) (xy 92 121.5) (xy 92 62)
 			)
 		)
 	)
