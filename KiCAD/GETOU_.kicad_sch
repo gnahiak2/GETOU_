@@ -1501,7 +1501,7 @@
 	)
 	(global_label "col1"
 		(shape input)
-		(at 106.68 84.2302 270)
+		(at 106.68 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1511,7 +1511,7 @@
 		)
 		(uuid "6ff6e04a-0ff9-4e55-a713-1b2ab4977933")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 91.3277 90)
+			(at 106.68 90.9175 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
