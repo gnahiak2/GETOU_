@@ -1,4 +1,4 @@
-# GETOU_ — 3×4 RP2040 Macropad
+# getou_ — 3×4 RP2040 Macropad
 
 A custom programmable 12-key macropad powered by **QMK firmware** and built around the RP2040 microcontroller.
 
@@ -6,7 +6,7 @@ A custom programmable 12-key macropad powered by **QMK firmware** and built arou
 
 ## 🧠 What is this project?
 
-GETOU_ is a compact, fully programmable macropad designed to give you fast access to shortcuts, macros, and workflows in a tiny 3×4 layout.
+getou_ is a compact, fully programmable macropad designed to give you fast access to shortcuts, macros, and workflows in a tiny 3×4 layout.
 
 It turns a simple grid of 12 keys into a powerful control surface for:
 - productivity shortcuts (copy, paste, window switching)
@@ -31,7 +31,7 @@ Most macropads are either expensive or locked behind proprietary software — th
 
 ## ⌨️ How it works
 
-GETOU_ uses:
+getou_ uses:
 
 - 🧠 **QMK firmware** for key programming
 - ⚡ **RP2040 microcontroller** (XIAO RP2040 recommended)
