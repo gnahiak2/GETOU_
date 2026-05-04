@@ -1163,30 +1163,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(global_label "col2"
-		(shape input)
-		(at 129.54 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "04a8a3eb-f8f5-4bf3-866d-3f07b0c6c46e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 90.9175 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "col0"
 		(shape input)
 		(at 88.9 146.05 0)
@@ -1211,7 +1187,7 @@
 			)
 		)
 	)
-	(global_label "col3"
+	(global_label "row3"
 		(shape input)
 		(at 53.34 153.67 180)
 		(fields_autoplaced yes)
@@ -1223,7 +1199,7 @@
 		)
 		(uuid "09473087-c297-4b80-a4e9-98143d3fa5c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.2425 153.67 0)
+			(at 45.8796 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1232,60 +1208,12 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "col0"
-		(shape input)
-		(at 85.09 66.04 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22d9a34f-8dcc-4368-869a-ae84c35fcb06")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 73.1375 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row1"
-		(shape input)
-		(at 114.3 76.2 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35bc7ed6-0b6a-4e3b-837a-50ba17e62b69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 68.7396 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
 	(global_label "col2"
 		(shape input)
-		(at 129.54 66.04 270)
+		(at 129.54 100.33 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1293,9 +1221,9 @@
 			)
 			(justify right)
 		)
-		(uuid "36cc054d-123f-4c67-b5bd-8504dd0acd71")
+		(uuid "0ab3d0a2-02c1-419f-9a64-6f0bd072b001")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 73.1375 90)
+			(at 129.54 107.4275 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1304,54 +1232,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "col1"
-		(shape input)
-		(at 106.68 102.87 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38e3bc1c-7177-434c-bd4d-ead9ad5eed65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 109.9675 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row2"
-		(shape input)
-		(at 114.3 95.25 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e9ad986-83d4-469f-b581-f35c8422ac76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 87.7896 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -1365,7 +1245,7 @@
 			)
 			(justify left)
 		)
-		(uuid "46fcadc2-3412-4a83-b5a9-4c0aef13ee87")
+		(uuid "16cfeb58-ad0a-441a-ae3f-a7f4613b35a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.85 68.7396 90)
 			(hide yes)
@@ -1379,9 +1259,33 @@
 			)
 		)
 	)
+	(global_label "col0"
+		(shape input)
+		(at 85.09 118.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a4282ba-a26c-496b-94df-b56f85b79f2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 125.2075 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "row2"
 		(shape input)
-		(at 91.44 95.25 90)
+		(at 69.85 92.71 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1389,9 +1293,57 @@
 			)
 			(justify left)
 		)
-		(uuid "4dab18ed-c2c5-4a2f-bc2b-2d8698559c65")
+		(uuid "455ad00f-508d-4f8a-abde-b03a41983744")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 87.7896 90)
+			(at 69.85 85.2496 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 69.85 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47502355-f8ae-463c-958d-437b55fd9b92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 50.9596 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 91.44 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4db9a763-86f8-41a0-9dda-5078b2c99a5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 50.9596 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1437,7 +1389,7 @@
 			)
 			(justify right)
 		)
-		(uuid "50a982f8-6925-434c-a288-f7d4ba0278d8")
+		(uuid "5861dc4d-2ff9-469e-ac3c-8aa4edfaf971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.09 90.9175 90)
 			(hide yes)
@@ -1448,6 +1400,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape input)
+		(at 85.09 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5db53bbf-979e-421e-87c9-bc8f42e6d055")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 107.4275 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 114.3 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e69e72b-b521-4f7e-b20c-287f851c0bc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 50.9596 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -1475,9 +1475,57 @@
 			)
 		)
 	)
-	(global_label "row0"
+	(global_label "col0"
 		(shape input)
-		(at 135.89 58.42 90)
+		(at 85.09 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64bb38d5-8805-46ef-84c9-007c8388bdca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 73.1375 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 129.54 83.82 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a318e30-0d84-4d53-a10d-e6016649b680")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 90.9175 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 114.3 110.49 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1485,9 +1533,81 @@
 			)
 			(justify left)
 		)
-		(uuid "69b0b3d3-132a-49b3-862e-563a7bc3ee0b")
+		(uuid "83529563-abbd-4c37-a628-0f103985dad8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 50.9596 90)
+			(at 114.3 103.0296 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 114.3 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8609f83f-4f2c-4e3e-9890-c2232bd7ea7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 85.2496 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 129.54 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86a78392-4510-4e59-b006-240e2b0b2b76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 73.1375 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 69.85 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ce9d8f3-5c5c-40d5-ad74-acee453adc66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 103.0296 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1509,7 +1629,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6ff6e04a-0ff9-4e55-a713-1b2ab4977933")
+		(uuid "8ef85882-b26a-4a48-b2ac-1c1f9b2be863")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.68 90.9175 90)
 			(hide yes)
@@ -1523,19 +1643,19 @@
 			)
 		)
 	)
-	(global_label "col2"
+	(global_label "row2"
 		(shape input)
-		(at 129.54 102.87 270)
+		(at 91.44 92.71 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "71e04001-97ac-4481-a898-13e3f2840d23")
+		(uuid "ab1d933d-1662-4ef5-a254-2267ec5c58a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 109.9675 90)
+			(at 91.44 85.2496 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1543,13 +1663,37 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 91.44 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac4a4116-c9d0-4594-8657-c6fb4bb033c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 103.0296 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
 	(global_label "row1"
 		(shape input)
-		(at 91.44 76.2 90)
+		(at 114.3 76.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1557,9 +1701,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8c789bca-1063-443d-b963-4c905cabfb75")
+		(uuid "b6fa4624-1733-4b9f-9604-a3dcea0cbc97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 68.7396 90)
+			(at 114.3 68.7396 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,126 +1712,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "row0"
-		(shape input)
-		(at 91.44 58.42 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91d1e270-82a3-464a-9751-b5e188840bda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 50.9596 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "row0"
-		(shape input)
-		(at 69.85 58.42 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91ff1a5c-1b14-4cb3-b73b-a4be4d182e9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 50.9596 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "col0"
-		(shape input)
-		(at 85.09 102.87 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f167381-321a-43e3-82c5-c87e594cac20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 109.9675 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "col3"
-		(shape input)
-		(at 151.13 102.87 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a102d71a-db4b-4ef0-b03b-a0193689c2a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 109.9675 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "col1"
-		(shape input)
-		(at 106.68 66.04 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a91a4ce8-e83d-4151-9b50-723b654139e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 73.1375 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -1715,19 +1739,19 @@
 			)
 		)
 	)
-	(global_label "row1"
+	(global_label "col2"
 		(shape input)
-		(at 135.89 76.2 90)
+		(at 129.54 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "bd986590-21be-45eb-96fe-ac845ee6ee4b")
+		(uuid "c05786ef-8ba3-4b4d-834f-51976075b543")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 68.7396 90)
+			(at 129.54 125.2075 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1735,7 +1759,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -1763,9 +1787,9 @@
 			)
 		)
 	)
-	(global_label "row2"
+	(global_label "row1"
 		(shape input)
-		(at 135.89 95.25 90)
+		(at 91.44 76.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1773,9 +1797,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e0734c14-e28c-4fea-b8b1-414aa20c4491")
+		(uuid "cba2947d-c5a8-42db-925e-249e79eea090")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 87.7896 90)
+			(at 91.44 68.7396 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1787,9 +1811,9 @@
 			)
 		)
 	)
-	(global_label "col3"
+	(global_label "col1"
 		(shape input)
-		(at 151.13 66.04 270)
+		(at 106.68 100.33 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1797,9 +1821,33 @@
 			)
 			(justify right)
 		)
-		(uuid "e3f7dc6b-8644-49c9-9d9f-b78f142b2280")
+		(uuid "cbf3f7ba-ea3a-4765-9d3c-aa2c5482f6ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 73.1375 90)
+			(at 106.68 107.4275 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 106.68 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df97cc45-499c-4eac-90a7-b289f4749a72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 73.1375 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,33 +1883,9 @@
 			)
 		)
 	)
-	(global_label "row2"
+	(global_label "col1"
 		(shape input)
-		(at 69.85 95.25 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5d0e8f2-4708-4a68-84e6-5fd5c6417855")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 87.7896 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "col3"
-		(shape input)
-		(at 151.13 83.82 270)
+		(at 106.68 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1869,9 +1893,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f73ef451-59af-4493-8dff-507518aee062")
+		(uuid "feda1808-08d9-46f9-a88f-35aadce61590")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 90.9175 90)
+			(at 106.68 125.2075 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,33 +1907,9 @@
 			)
 		)
 	)
-	(global_label "row0"
-		(shape input)
-		(at 114.3 58.42 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff374f79-8994-49a2-a063-3afe1b94c537")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 50.9596 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 99.06 95.25 0)
+		(at 77.47 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1920,7 +1920,7 @@
 		(fields_autoplaced yes)
 		(uuid "0083869a-bcfb-4322-8dcc-6bdf7858e4da")
 		(property "Reference" "S10"
-			(at 99.06 86.36 0)
+			(at 77.47 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1930,7 +1930,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 99.06 88.9 0)
+			(at 77.47 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1940,7 +1940,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SW_MX1A-11NN"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1952,7 +1952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1963,7 +1963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1974,7 +1974,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,7 +1986,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1998,7 +1998,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2010,7 +2010,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +2022,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2034,7 +2034,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2046,7 +2046,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,7 +2058,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2070,7 +2070,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2082,7 +2082,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2094,7 +2094,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2106,7 +2106,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2118,7 +2118,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2130,7 +2130,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 99.06 95.25 0)
+			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2158,7 +2158,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 129.54 80.01 90)
+		(at 85.09 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2169,7 +2169,7 @@
 		(fields_autoplaced yes)
 		(uuid "031f5267-013c-44f1-9849-8d4cbd2f04eb")
 		(property "Reference" "D7"
-			(at 132.08 78.7399 90)
+			(at 87.63 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2180,7 +2180,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 132.08 81.2799 90)
+			(at 87.63 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2191,7 +2191,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 129.54 80.01 0)
+			(at 85.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2202,7 +2202,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 129.54 80.01 0)
+			(at 85.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2213,7 +2213,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 129.54 80.01 0)
+			(at 85.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2224,7 +2224,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 129.54 80.01 0)
+			(at 85.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 129.54 80.01 0)
+			(at 85.09 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +2262,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 77.47 95.25 0)
+		(at 121.92 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2273,7 +2273,7 @@
 		(fields_autoplaced yes)
 		(uuid "1930e111-6361-45a5-a3cd-7736e59fcfd6")
 		(property "Reference" "S9"
-			(at 77.47 86.36 0)
+			(at 121.92 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2283,7 +2283,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 77.47 88.9 0)
+			(at 121.92 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2293,7 +2293,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SW_MX1A-11NN"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2305,7 +2305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,7 +2316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2327,7 +2327,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2339,7 +2339,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2351,7 +2351,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +2375,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,7 +2387,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2399,7 +2399,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,7 +2411,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2423,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2435,7 +2435,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2447,7 +2447,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,7 +2459,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +2471,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2483,7 +2483,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 77.47 95.25 0)
+			(at 121.92 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2615,7 +2615,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 151.13 62.23 90)
+		(at 85.09 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2626,7 +2626,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dec1a26-c8f1-4e55-b460-c0240a83a8a1")
 		(property "Reference" "D4"
-			(at 153.67 60.9599 90)
+			(at 87.63 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2637,7 +2637,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 153.67 63.4999 90)
+			(at 87.63 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2648,7 +2648,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 151.13 62.23 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2659,7 +2659,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 151.13 62.23 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2670,7 +2670,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 151.13 62.23 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2681,7 +2681,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 151.13 62.23 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2692,7 +2692,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 151.13 62.23 0)
+			(at 85.09 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2719,7 +2719,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 151.13 99.06 90)
+		(at 129.54 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2730,7 +2730,7 @@
 		(fields_autoplaced yes)
 		(uuid "202645bb-cc42-4b5c-ac8e-40154d1cc1ea")
 		(property "Reference" "D9"
-			(at 153.67 97.7899 90)
+			(at 132.08 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2741,7 +2741,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 153.67 100.3299 90)
+			(at 132.08 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2752,7 +2752,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 151.13 99.06 0)
+			(at 129.54 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,7 +2763,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 151.13 99.06 0)
+			(at 129.54 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2774,7 +2774,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 151.13 99.06 0)
+			(at 129.54 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2785,7 +2785,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 151.13 99.06 0)
+			(at 129.54 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,7 +2796,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 151.13 99.06 0)
+			(at 129.54 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2823,7 +2823,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 106.68 99.06 90)
+		(at 85.09 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2834,7 +2834,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d393212-4c24-4033-9de5-d15e777c8044")
 		(property "Reference" "D11"
-			(at 109.22 97.7899 90)
+			(at 87.63 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2845,7 +2845,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 109.22 100.3299 90)
+			(at 87.63 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2856,7 +2856,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 106.68 99.06 0)
+			(at 85.09 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +2867,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 106.68 99.06 0)
+			(at 85.09 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,7 +2878,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 106.68 99.06 0)
+			(at 85.09 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,7 +2889,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 99.06 0)
+			(at 85.09 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,7 +2900,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 99.06 0)
+			(at 85.09 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,7 +3176,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 151.13 80.01 90)
+		(at 106.68 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3187,7 +3187,7 @@
 		(fields_autoplaced yes)
 		(uuid "5166bba6-f01c-4180-8e3a-027c89047381")
 		(property "Reference" "D8"
-			(at 153.67 78.7399 90)
+			(at 109.22 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3198,7 +3198,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 153.67 81.2799 90)
+			(at 109.22 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3209,7 +3209,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 151.13 80.01 0)
+			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +3220,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 151.13 80.01 0)
+			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,7 +3231,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 151.13 80.01 0)
+			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,7 +3242,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 151.13 80.01 0)
+			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3253,7 +3253,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 151.13 80.01 0)
+			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3280,7 +3280,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 129.54 99.06 90)
+		(at 106.68 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3291,7 +3291,7 @@
 		(fields_autoplaced yes)
 		(uuid "63ddc83e-6b72-4512-be17-3d3041101ae4")
 		(property "Reference" "D10"
-			(at 132.08 97.7899 90)
+			(at 109.22 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3302,7 +3302,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 132.08 100.3299 90)
+			(at 109.22 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3313,7 +3313,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 129.54 99.06 0)
+			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3324,7 +3324,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 129.54 99.06 0)
+			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3335,7 +3335,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 129.54 99.06 0)
+			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3346,7 +3346,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 129.54 99.06 0)
+			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,7 +3357,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 129.54 99.06 0)
+			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3384,7 +3384,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 121.92 95.25 0)
+		(at 99.06 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3395,7 +3395,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d909b02-b268-4113-9eff-fb4c8ceaacf9")
 		(property "Reference" "S11"
-			(at 121.92 86.36 0)
+			(at 99.06 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3405,7 +3405,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 121.92 88.9 0)
+			(at 99.06 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3415,7 +3415,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SW_MX1A-11NN"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3427,7 +3427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3438,7 +3438,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3449,7 +3449,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3461,7 +3461,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3473,7 +3473,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3485,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,7 +3497,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3509,7 +3509,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3521,7 +3521,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3533,7 +3533,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3545,7 +3545,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,7 +3557,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3569,7 +3569,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3581,7 +3581,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3593,7 +3593,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3605,7 +3605,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 121.92 95.25 0)
+			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3633,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 99.06 76.2 0)
+		(at 121.92 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3644,7 +3644,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a43b378-0692-483d-9d6e-2d97af5dc981")
 		(property "Reference" "S6"
-			(at 99.06 67.31 0)
+			(at 121.92 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3654,7 +3654,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 99.06 69.85 0)
+			(at 121.92 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3664,7 +3664,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SW_MX1A-11NN"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +3676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3698,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3710,7 +3710,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3722,7 +3722,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3734,7 +3734,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3746,7 +3746,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,7 +3758,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +3770,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3782,7 +3782,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3794,7 +3794,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3806,7 +3806,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3818,7 +3818,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,7 +3830,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3842,7 +3842,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,7 +3854,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 99.06 76.2 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3882,7 +3882,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 143.51 58.42 0)
+		(at 77.47 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3893,503 +3893,6 @@
 		(fields_autoplaced yes)
 		(uuid "a0e668c1-e96d-4eb4-a26c-5fe24b563b22")
 		(property "Reference" "S4"
-			(at 143.51 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX1A-11NN"
-			(at 143.51 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_MX1A-11NN"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Cherry"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "DIZAR"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" ""
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "MX1A-11NN"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Cherry"
-			(at 143.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "1663990b-7690-449c-861d-ae2afa63a19c")
-		)
-		(pin "1"
-			(uuid "d4a9b747-fad8-4a1c-a4e4-fc37aa37cbf2")
-		)
-		(instances
-			(project "GETOU_"
-				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
-					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 143.51 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a41eedff-9f6f-4884-87cb-07bc092c4cc9")
-		(property "Reference" "S8"
-			(at 143.51 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX1A-11NN"
-			(at 143.51 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_MX1A-11NN"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Cherry"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CREATOR" "DIZAR"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" ""
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "MX1A-11NN"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Cherry"
-			(at 143.51 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "85f1372d-b007-44f1-9691-9d5756ae66cf")
-		)
-		(pin "1"
-			(uuid "04ad4505-6f6a-4318-ba86-3bfa44bb14ba")
-		)
-		(instances
-			(project "GETOU_"
-				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
-					(reference "S8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 77.47 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5b81ce5-64a9-4035-9843-e51343903bbc")
-		(property "Reference" "S5"
 			(at 77.47 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,6 +4104,503 @@
 		)
 		(property "MANUFACTURER" "Cherry"
 			(at 77.47 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "1663990b-7690-449c-861d-ae2afa63a19c")
+		)
+		(pin "1"
+			(uuid "d4a9b747-fad8-4a1c-a4e4-fc37aa37cbf2")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MX1A-11NN:MX1A-11NN")
+		(at 99.06 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a41eedff-9f6f-4884-87cb-07bc092c4cc9")
+		(property "Reference" "S8"
+			(at 99.06 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 99.06 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "DIZAR"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" ""
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Cherry"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "85f1372d-b007-44f1-9691-9d5756ae66cf")
+		)
+		(pin "1"
+			(uuid "04ad4505-6f6a-4318-ba86-3bfa44bb14ba")
+		)
+		(instances
+			(project "GETOU_"
+				(path "/ff3af5e0-ced5-46c8-b126-f01df05577ec"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MX1A-11NN:MX1A-11NN")
+		(at 99.06 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b81ce5-64a9-4035-9843-e51343903bbc")
+		(property "Reference" "S5"
+			(at 99.06 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 99.06 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW_MX1A-11NN"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "DIZAR"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" ""
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 99.06 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Cherry"
+			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,7 +5230,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 106.68 80.01 90)
+		(at 129.54 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5241,7 +5241,7 @@
 		(fields_autoplaced yes)
 		(uuid "c87eedda-d3d2-413d-9df5-ced8482c31f3")
 		(property "Reference" "D6"
-			(at 109.22 78.7399 90)
+			(at 132.08 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5252,7 +5252,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 109.22 81.2799 90)
+			(at 132.08 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5263,7 +5263,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 106.68 80.01 0)
+			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5274,7 +5274,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 106.68 80.01 0)
+			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5285,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 106.68 80.01 0)
+			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,7 +5296,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 80.01 0)
+			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5307,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 80.01 0)
+			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,7 +5554,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 85.09 80.01 90)
+		(at 106.68 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5565,7 +5565,7 @@
 		(fields_autoplaced yes)
 		(uuid "df077ecf-2303-455f-b466-97c68e93f674")
 		(property "Reference" "D5"
-			(at 87.63 78.7399 90)
+			(at 109.22 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5576,7 +5576,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 87.63 81.2799 90)
+			(at 109.22 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5587,7 +5587,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 85.09 80.01 0)
+			(at 106.68 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5598,7 +5598,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 85.09 80.01 0)
+			(at 106.68 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5609,7 +5609,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 85.09 80.01 0)
+			(at 106.68 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5620,7 +5620,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 85.09 80.01 0)
+			(at 106.68 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5631,7 +5631,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 80.01 0)
+			(at 106.68 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5658,7 +5658,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 85.09 99.06 90)
+		(at 129.54 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5669,7 +5669,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebb82a65-c1e1-4bf3-90cf-e3263f9752a1")
 		(property "Reference" "D12"
-			(at 87.63 97.7899 90)
+			(at 132.08 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5680,7 +5680,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 87.63 100.3299 90)
+			(at 132.08 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5691,7 +5691,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 85.09 99.06 0)
+			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5702,7 +5702,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 85.09 99.06 0)
+			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5713,7 +5713,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 85.09 99.06 0)
+			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5724,7 +5724,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 85.09 99.06 0)
+			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5735,7 +5735,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 99.06 0)
+			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5762,7 +5762,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 143.51 95.25 0)
+		(at 121.92 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5773,7 +5773,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7dc5831-4f7d-46e8-ac45-1fc15f448d85")
 		(property "Reference" "S12"
-			(at 143.51 86.36 0)
+			(at 121.92 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5783,7 +5783,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 143.51 88.9 0)
+			(at 121.92 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5793,7 +5793,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SW_MX1A-11NN"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5805,7 +5805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5816,7 +5816,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5827,7 +5827,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5839,7 +5839,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5851,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5863,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5875,7 +5875,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5887,7 +5887,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5899,7 +5899,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5911,7 +5911,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5923,7 +5923,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5935,7 +5935,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5947,7 +5947,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5959,7 +5959,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5971,7 +5971,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +5983,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 143.51 95.25 0)
+			(at 121.92 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6011,7 +6011,7 @@
 	)
 	(symbol
 		(lib_id "MX1A-11NN:MX1A-11NN")
-		(at 121.92 76.2 0)
+		(at 77.47 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6022,7 +6022,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcebd811-74f9-48d8-a4a0-540aded727d9")
 		(property "Reference" "S7"
-			(at 121.92 67.31 0)
+			(at 77.47 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6032,7 +6032,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 121.92 69.85 0)
+			(at 77.47 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6042,7 +6042,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SW_MX1A-11NN"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6054,7 +6054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,7 +6065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6076,7 +6076,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +6088,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.2mm"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6100,7 +6100,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6112,7 +6112,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6124,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6136,7 +6136,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6148,7 +6148,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6160,7 +6160,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,7 +6172,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6184,7 +6184,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6196,7 +6196,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6208,7 +6208,7 @@
 			)
 		)
 		(property "Description_1" "Switch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6220,7 +6220,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6232,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Cherry"
-			(at 121.92 76.2 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
