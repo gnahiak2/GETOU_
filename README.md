@@ -54,4 +54,5 @@ getou_ uses:
 ## 🖼️ Images / Visuals
 
 ### 🔷 Full assembled macropad
-*(Add your photo here)*  
+<img width="736" height="388" alt="Screenshot 2026-05-16 at 6 12 35 PM" src="https://github.com/user-attachments/assets/66dba5af-232d-4515-b563-93f5ca5cf880" />
+
