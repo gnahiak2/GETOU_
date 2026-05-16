@@ -1,5 +1,6 @@
-Item No.,Part Name,Manufacturer,Part Number,Description,Quantity,Unit Price (SGD),Total (SGD),Total(USD)
-1,XIAO RP2040,Seeed Studio,102010428,ARM Development Board,1,7.51,7.51,5.89
-2,1N4148 Diode,onsemi,1N4148,"Small signal switching diode (100V, 200mA)",12,0.054,0.65,0.51
-3,Outemu Mechanical Keyboard Switch 3 Pin Dustproof red blue brown black Replacement Gateron Cherry,generic,n/a,Keyboard switch,12,0.2,2.4,1.88
-4,Keycaps,Myself,n/a,Keycap (3d printed),12,0,0,0
+Item No.,Part Name,Manufacturer,Part Number,Description,Quantity,Unit Price (SGD),Total (SGD),Total(USD),Purchace Link
+1,XIAO RP2040,Seeed Studio,102010428,ARM Development Board,1,7.51,7.51,5.89,https://www.mouser.sg/ProductDetail/713-102010428
+2,1N4148 Diode,onsemi,1N4148,"Small signal switching diode (100V, 200mA)",12,0.054,0.65,0.51,https://www.mouser.sg/ProductDetail/512-1N4148
+3,Outemu Mechanical Keyboard Switch 3 Pin Dustproof red blue brown black Replacement Gateron Cherry,generic,n/a,Keyboard switch,12,0.2,2.4,1.88,https://shopee.sg/Outemu-Mechanical-Keyboard-Switch-3-Pin-Dustproof-red-blue-brown-black-Replacement-Gateron-Cherry-i.237389079.7624426376?extraParams=%7B%22display_model_id%22%3A16528391228%2C%22model_selection_logic%22%3A3%7D&sp_atk=7e2840f8-dae0-4c7a-a5a6-27ed9bb7ee11&xptdk=7e2840f8-dae0-4c7a-a5a6-27ed9bb7ee11
+4,Keycaps,Myself,n/a,Keycap (3d printed),12,0,0,0,n/a
+5,Case,Myself,N/a,Case (3d Printed),1,0,0,0,n/a
