@@ -14,7 +14,7 @@ This app is currently a **scaffold**:
 
 ## Requirements
 
-- macOS 13+ recommended
+- macOS 14+ recommended
 - Xcode 15+ recommended (Xcode 14 may work, but the project is set up assuming modern SwiftUI)
 - Optional: VS Code (as editor)
 
