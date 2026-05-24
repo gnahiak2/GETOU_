@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/DerivedData": true,
+    "**/.swiftpm": true,
+    "**/.build": true,
+    "**/*.xcuserstate": true,
+    "**/*.xcuserdata": true
+  },
+  "search.exclude": {
+    "**/DerivedData": true,
+    "**/.build": true,
+    "**/*.xcodeproj/project.xcworkspace/xcuserdata": true
+  }
+}
