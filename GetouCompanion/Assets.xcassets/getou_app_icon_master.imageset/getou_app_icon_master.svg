@@ -1,0 +1,47 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="140" y1="120" x2="900" y2="940" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#1E5BFF"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="260" y1="260" x2="780" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D6BFF"/>
+      <stop offset="1" stop-color="#1F55E6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- macOS rounded-square backdrop -->
+  <rect x="96" y="96" width="832" height="832" rx="180" fill="url(#bg)"/>
+
+  <!-- subtle 3x4 grid hint -->
+  <g opacity="0.14" fill="#FFFFFF">
+    <!-- 12 dots -->
+    <!-- row 1 -->
+    <circle cx="310" cy="300" r="10"/><circle cx="410" cy="300" r="10"/><circle cx="510" cy="300" r="10"/><circle cx="610" cy="300" r="10"/>
+    <!-- row 2 -->
+    <circle cx="310" cy="380" r="10"/><circle cx="410" cy="380" r="10"/><circle cx="510" cy="380" r="10"/><circle cx="610" cy="380" r="10"/>
+    <!-- row 3 -->
+    <circle cx="310" cy="460" r="10"/><circle cx="410" cy="460" r="10"/><circle cx="510" cy="460" r="10"/><circle cx="610" cy="460" r="10"/>
+  </g>
+
+  <!-- Keycap -->
+  <rect x="216" y="260" width="592" height="504" rx="120" fill="url(#cap)"/>
+
+  <!-- Flat highlight (no gloss) -->
+  <rect x="260" y="300" width="504" height="90" rx="45" fill="#6FA3FF" opacity="0.22"/>
+
+  <!-- Keycap border -->
+  <rect x="216" y="260" width="592" height="504" rx="120" stroke="#A9C6FF" stroke-opacity="0.35" stroke-width="8"/>
+
+  <!-- Text -->
+  <text x="512" y="560"
+        font-family="SF Mono, Menlo, Monaco, Consolas, 'Liberation Mono', monospace"
+        font-size="120"
+        font-weight="700"
+        text-anchor="middle"
+        fill="#EAF1FF"
+        letter-spacing="2">
+    getou_
+  </text>
+</svg>
