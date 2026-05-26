@@ -87,21 +87,25 @@ This project also gave me experience with:
 
 ## Fully Assembled Macropad
 
-![Assembled](images/assembled.png)
+![Assembled]
+not yet
 
 ---
 
 ## PCB
 
-![PCB Front](images/pcb_front.png)
+![PCB Front]
+same
 
-![PCB Back](images/pcb_back.png)
+![PCB Back]
+also
 
 ---
 
 ## 3D Render
 
-![3D Render](images/render.png)
+![3D Render]
+not yet too
 
 ---
 
