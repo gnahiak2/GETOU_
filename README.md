@@ -4,6 +4,7 @@ A compact fully programmable 12-key macropad powered by QMK firmware and built a
 
 <img src="Zine.png" alt="Zine!" style="width: 30%; height: auto;">
 
+
 ---
 
 # 🧠 What is getou_?
@@ -103,8 +104,7 @@ also
 
 ## 3D Render
 
-![3D Render]
-not yet too
+<img src="getou_render.png" alt="Render" style="width: 30%; height: auto;">
 
 ---
 
