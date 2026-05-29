@@ -2,7 +2,7 @@
 
 A compact fully programmable 12-key macropad powered by QMK firmware and built around the RP2040 microcontroller.
 
-<img src="Zine.png" alt="Zine!" style="width: 30%; height: auto;">
+<img src="Zine/Zine.png" alt="Zine!" style="width: 30%; height: auto;">
 
 
 ---
@@ -94,17 +94,15 @@ not yet
 
 ## PCB
 
-![PCB Front]
-same
+<img src="Images/getou_pcbfront.png" alt="PCBFront" style="width: 30%; height: auto;">
 
-![PCB Back]
-also
+<img src="Images/getou_pcbback.png" alt="PCBBack" style="width: 30%; height: auto;">
 
 ---
 
 ## 3D Render
 
-<img src="getou_render.png" alt="Render" style="width: 30%; height: auto;">
+<img src="Images/getou_render.png" alt="Render" style="width: 30%; height: auto;">
 
 ---
 
@@ -135,6 +133,7 @@ getou_/
 ├── GetouCompanion/      # Companion software
 ├── KiCAD/               # PCB design files
 ├── images/              # README images
+├── Zine/                # Zine
 ├── BOM.csv              # Bill of materials
 ├── README.md
 └── LICENSE
