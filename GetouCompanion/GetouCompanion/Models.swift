@@ -1,9 +1,7 @@
-//
-//  Models.swift
-//  GetouCompanion
-//
-
 import Foundation
+import CoreGraphics
+
+// MARK: - Device
 
 struct KeyboardDevice: Identifiable, Hashable {
     let id: UUID
@@ -13,48 +11,64 @@ struct KeyboardDevice: Identifiable, Hashable {
     var manufacturer: String?
 
     var displayName: String {
-        let p = product?.trimmingCharacters(in: .whitespacesAndNewlines)
-        if let p, !p.isEmpty { return p }
-        return String(format: "USB HID %04X:%04X", vid, pid)
+        product?.trimmingCharacters(in: .whitespacesAndNewlines).flatMap {
+            $0.isEmpty ? nil : $0
+        } ?? String(format: "USB HID %04X:%04X", vid, pid)
     }
 }
 
-struct MacroProfile: Identifiable, Codable, Hashable {
-    var id: UUID
-    var name: String
-    var macros: [MacroDefinition]
+// MARK: - Hotkey System
 
-    static var example: MacroProfile {
-        .init(
-            id: UUID(),
-            name: "Default",
-            macros: [
-                .init(id: UUID(), name: "Hello", steps: [.text("hello world")]),
-                .init(id: UUID(), name: "Paste", steps: [.hotkey([.command], key: "v")])
-            ]
-        )
-    }
-}
-
-struct MacroDefinition: Identifiable, Codable, Hashable {
-    var id: UUID
-    var name: String
-    var steps: [MacroStep]
+struct Hotkey: Codable, Hashable {
+    var keyCode: CGKeyCode
+    var modifiers: [ModifierKey]
 }
 
 enum ModifierKey: String, Codable, Hashable {
     case command, option, control, shift
 }
 
-enum MacroStep: Codable, Hashable {
-    case text(String)
-    case hotkey([ModifierKey], key: String)
+// MARK: - Macro Actions
 
-    var debugDescription: String {
-        switch self {
-        case .text(let s): return "text(\(s))"
-        case .hotkey(let mods, let key):
-            return "hotkey(\(mods.map { $0.rawValue }.joined(separator: "+")) + \(key))"
-        }
+enum MacroAction: Codable, Hashable {
+    case text(String)
+    case hotkey(Hotkey)
+    case delay(Double)
+    case openApp(String)
+    case runShell(String)
+}
+
+// MARK: - Macro
+
+struct MacroDefinition: Identifiable, Codable, Hashable {
+    var id: UUID
+    var name: String
+    var actions: [MacroAction]
+}
+
+// MARK: - Profile
+
+struct MacroProfile: Identifiable, Codable, Hashable {
+    var id: UUID
+    var name: String
+
+    /// keyIndex (F13=0...) → macroID
+    var bindings: [Int: UUID]
+
+    var macros: [MacroDefinition]
+
+    static var example: MacroProfile {
+        let macro = MacroDefinition(
+            id: UUID(),
+            name: "Hello",
+            actions: [.text("hello world")]
+        )
+
+        return MacroProfile(
+            id: UUID(),
+            name: "Default",
+            bindings: [0: macro.id],
+            macros: [macro]
+        )
     }
 }
