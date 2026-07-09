@@ -3,7 +3,8 @@
 A compact fully programmable 12-key macropad powered by QMK firmware and built around the RP2040 microcontroller.
 
 <img src="Zine/Zine.png" alt="Zine!" style="width: 30%; height: auto;">
-# this needs manual review because the hours are in fallout
+
+this needs manual review because the hours are in fallout
 
 
 ---
