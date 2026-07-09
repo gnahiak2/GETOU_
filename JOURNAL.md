@@ -185,12 +185,24 @@ Started on the QMK firmware and did some configuration on everything also json w
 ![](screenshots/9.png)
 
 
-### Recording Links
+### Recordings
 
-- https://public.lapse-hackclub.link/timelapses/JPl2ekRHvlev/timelapse-JPl2ekRHvlev.mp4
-- https://public.lapse-hackclub.link/timelapses/fahpYW4PVdu4/timelapse-fahpYW4PVdu4.mp4
-- https://lookout.hackclub.com/api/media/05a08b21-7218-43d5-a05e-9865742be001/video.mp4
-- https://lookout.hackclub.com/api/media/013c247c-f0b1-4e27-bdeb-cd2791c49d92/video.mp4
+
+https://github.com/user-attachments/assets/58b35025-8b91-4782-9a79-96f5e5664cfa
+
+
+
+https://github.com/user-attachments/assets/a2fd0a02-180a-4dae-baac-f860e5d20511
+
+
+
+https://github.com/user-attachments/assets/b7c51d54-2e79-4df7-bc8b-14ab148d6bf0
+
+
+
+https://github.com/user-attachments/assets/c169091b-15d7-4152-9545-822c181068a4
+
+
 
 ## Entry 10
 - ID: 4034
@@ -203,9 +215,12 @@ Welp i redid qmk with some help from chatgpt cuz no idea as usual and hi soup (a
 ![](screenshots/10.png)
 
 
-### Recording Links
+### Recording
 
-- https://lookout.hackclub.com/api/media/e300d2eb-94ef-4c82-a875-8dadfff801f9/video.mp4
+
+https://github.com/user-attachments/assets/b06ecf86-e657-4ad3-b0d8-4860a4292321
+
+
 
 ## Entry 11
 - ID: 4207
@@ -217,10 +232,15 @@ Welp i redid qmk with some help from chatgpt cuz no idea as usual and hi soup (a
 What i did was do some keystuff and rewire the pcb also don't mind the yt shorts i was locked in ;).
 ![](screenshots/11.png)
 
-### Recording Links
+### Recordings
 
-- https://lookout.hackclub.com/api/media/347cbae2-bc9c-4312-9db0-a7a160ef91a1/video.mp4
-- https://lookout.hackclub.com/api/media/b76c407e-0472-4dac-8a5b-07af1c352629/video.mp4
+https://github.com/user-attachments/assets/ef5cb9c3-597d-4b90-af90-1d3896d78c02
+
+
+
+https://github.com/user-attachments/assets/15558251-3dbf-483d-94d6-2b365def775c
+
+
 
 ## Entry 12
 - ID: 5095
@@ -235,8 +255,14 @@ I mostly did qmk and some redesigns to the pcb and schematic also i FOUND OUT TH
 
 ### Recording Links
 
-- https://lookout.hackclub.com/api/media/689897bb-4c0c-40aa-a7fd-b032dca05e2a/video.mp4
-- https://lookout.hackclub.com/api/media/37d1e24e-8352-47ea-8518-24a8fd6a1848/video.mp4
+
+https://github.com/user-attachments/assets/6ad589a9-ed97-4621-8796-5ca4ea68abfe
+
+
+
+https://github.com/user-attachments/assets/ced72bab-8d82-4099-8e41-81d44980d9dc
+
+
 
 ## Entry 13
 - ID: 5423
@@ -249,9 +275,12 @@ I redid my pcb and started on my Bill of Materials which was ermm no idea but i 
 ![](screenshots/13png)
 
 
-### Recording Links
+### Recording
 
-- https://lookout.hackclub.com/api/media/98e0c703-d99b-4629-940b-a8a66f56f0e2/video.mp4
+
+https://github.com/user-attachments/assets/6f78a9d8-e6f8-4f67-bf3f-dbfac2a7f3d1
+
+
 
 ## Entry 14
 - ID: 7381
@@ -264,10 +293,15 @@ I locked in cuz i locked in and locked in some moreI locked in cuz i locked in a
 ![](screenshots/14.png)
 
 
-### Recording Links
+### Recordings
 
-- https://lookout.hackclub.com/api/media/18ea10f9-5d24-4786-9eb0-c90ff7cf1f2b/video.mp4
-- https://lookout.hackclub.com/api/media/18741b1a-43b0-4223-8d85-9aa992278a64/video.mp4
+https://github.com/user-attachments/assets/f814c9cf-9ce5-42a1-99aa-9ea9a12aba9b
+
+
+
+https://github.com/user-attachments/assets/76057230-05ac-4855-8547-c159fd19b0dc
+
+
 
 ## Entry 15
 - ID: 7393
@@ -280,9 +314,20 @@ I did the zine and locked in I did the zine and locked in I did the zine and loc
 ![](screenshots/15.png)
 
 
-### Recording Links
+### Recording 
 
-- https://lookout.hackclub.com/api/media/0ecdc574-44f8-4cac-8c64-dc59c182bac2/video.mp4
+
+https://github.com/user-attachments/assets/115e73ab-1af3-43b6-a09c-c0729dc03603
+
+
+
+https://github.com/user-attachments/assets/3b24249a-153f-485a-b57a-3cb213326c62
+
+
+
+https://github.com/user-attachments/assets/954e8bd3-e4c1-4b54-a571-e1df8eb83974
+
+
 
 ## Entry 16
 - ID: 7395
@@ -296,9 +341,8 @@ also locked on and locked inalso locked on and locked inalso locked on and locke
 ![](screenshots/16.png)
 
 
-### Recording Links
+### Recording
 
-- https://lookout.hackclub.com/api/media/43af57f6-e810-4d0f-b23c-2c057992d192/video.mp4
 
 ## Entry 17
 - ID: 7526
@@ -325,9 +369,11 @@ I improved the BOM and locked in on the Zine I also locked in and locked in i al
 I started on the Mac app that starts on the GUI app that allows for macros and all that to be added. I'm focusing on Mac because I use one.
 ![](screenshots/18.png)
 
-### Recording Links
+### Recording
 
-- https://lookout.hackclub.com/api/media/f3aa8de4-b0e3-4ad8-bcbb-7ec656a78682/video.mp4
+https://github.com/user-attachments/assets/2aa5f13b-9eea-461f-8e39-0d6ac665289c
+
+
 
 ## Entry 19
 - ID: 10032
