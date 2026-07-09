@@ -26,8 +26,6 @@ I set up and got the github repo up and running had to start from scratch what t
 
 - https://public.lapse-hackclub.link/timelapses/hnrDDN3nv-ST/timelapse-hnrDDN3nv-ST.mp4
 
-**Recorded Time:** <!-- Fill in from Fallout/Lookout -->
-
 ---
 
 ## Entry 2
@@ -46,8 +44,6 @@ I added all the keyboard switches and the Raspberry Pi Pico on the KiCad schemat
 
 - https://public.lapse-hackclub.link/timelapses/bBfP6GxaJAgF/timelapse-bBfP6GxaJAgF.mp4
 - https://www.youtube.com/watch?v=JRkxtBLFJig
-
-**Recorded Time:** <!-- Fill in from Fallout/Lookout -->
 
 ---
 
