@@ -1,55 +1,74 @@
 # getou_ — Journal Export
 
+> **⚠️ Manual Horizons Review Required**
+>
+> This project requires manual review because the hours were originally submitted through Fallout.
+
 - Exported at: 2026-07-09T12:02:50Z
 - Project ID: 160
 - Entries: 21
 
+---
+
 ## Entry 1
+
 - ID: 48
 - Author: the rekrap2 wannabe gnahiak2 aka kaihang for my irl friends
 - Created At: 2026-03-13T11:59:25Z
 
 ### Content
 
-I set up and got the github repo up and running had to start from scratch what the hell am i writing 
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQyLCJwdXIiOiJibG9iX2lkIn19--414ca3e4920aea22cf9023fff797b6c5a345a77f/image.png)
+I set up and got the github repo up and running had to start from scratch what the hell am i writing
 
+![](screenshots/1.png)
 
 ### Recording Links
 
 - https://public.lapse-hackclub.link/timelapses/hnrDDN3nv-ST/timelapse-hnrDDN3nv-ST.mp4
 
+**Recorded Time:** <!-- Fill in from Fallout/Lookout -->
+
+---
+
 ## Entry 2
+
 - ID: 53
 - Author: the rekrap2 wannabe gnahiak2 aka kaihang for my irl friends
 - Created At: 2026-03-14T02:09:29Z
 
 ### Content
 
-I added all the keyboard switches and the  Raspberry Pi Pico on the kicad schematic and i decided that it would be a 80%keyboard
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTUxLCJwdXIiOiJibG9iX2lkIn19--f1a441a0e47b6e37eb942e64ae5dcfee8ff2ebf9/image.png)
+I added all the keyboard switches and the Raspberry Pi Pico on the KiCad schematic and I decided that it would be an 80% keyboard.
 
+![](screenshots/2.png)
 
 ### Recording Links
 
 - https://public.lapse-hackclub.link/timelapses/bBfP6GxaJAgF/timelapse-bBfP6GxaJAgF.mp4
 - https://www.youtube.com/watch?v=JRkxtBLFJig
 
+**Recorded Time:** <!-- Fill in from Fallout/Lookout -->
+
+---
+
 ## Entry 3
+
 - ID: 59
 - Author: the rekrap2 wannabe gnahiak2 aka kaihang for my irl friends
 - Created At: 2026-03-14T10:54:38Z
 
 ### Content
 
-Decided that it would be a small 12key macropad instead of a full keyboard also zoned out a bit. Finished wiring
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTY3LCJwdXIiOiJibG9iX2lkIn19--72cdd638c86e8b849fcc9a92d7012c5323d5638e/image.png)
+Decided that it would be a small 12-key macropad instead of a full keyboard. Also zoned out a bit. Finished wiring.
 
+![](screenshots/3.png)
 
 ### Recording Links
 
 - https://public.lapse-hackclub.link/timelapses/8MPm_k7TDoWb/timelapse-8MPm_k7TDoWb.mp4
 - https://www.youtube.com/watch?v=BcjEijC-wmY
+
+---
 
 ## Entry 4
 - ID: 72
@@ -59,7 +78,7 @@ Decided that it would be a small 12key macropad instead of a full keyboard also 
 ### Content
 
 I decided to use the xiao rp2040 instead of a full rpi pico to save space and have usb-c also finished the pcb
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgxLCJwdXIiOiJibG9iX2lkIn19--284f443e2037e3f66b02dd4171455d5e09d8d01d/image.png)
+![](screenshots/4.png)
 
 
 ### Recording Links
@@ -74,8 +93,7 @@ I decided to use the xiao rp2040 instead of a full rpi pico to save space and ha
 ### Content
 
 Modified pcb and added step files and started on the cad and reorgainised the folder structure in the github repo to add the cad files and in future add the firmware and the accompanying electron app for cross compatibility
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQzLCJwdXIiOiJibG9iX2lkIn19--93b9c203445b69c48037bb98bc696498024477f4/image.png)
-
+![](screenshots/5.png)
 
 ### Recording Links
 
@@ -89,7 +107,7 @@ Modified pcb and added step files and started on the cad and reorgainised the fo
 ### Content
 
 Finished the cad model and organised the folder structure in the github repositiory and started on firmware
-  ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYzLCJwdXIiOiJibG9iX2lkIn19--6098609fdd73dffd7abbc71192c42553ca1ca1f8/image.png)
+![](screenshots/6.png)
 
 
 ### Recording Links
@@ -104,7 +122,7 @@ Finished the cad model and organised the folder structure in the github repositi
 ### Content
 
 No idea what I did .......................................................................................................................................................... lowkey forgot
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU0NywicHVyIjoiYmxvYl9pZCJ9fQ==--d642dd7934c938f3b1806ce694eaf3a020c67ef0/image.png)
+![](screenshots/7.png)
 
 
 ### Recording Links
@@ -120,7 +138,7 @@ No idea what I did .............................................................
 ### Content
 
 I started on the improved readme and setting up cuz i reset my pc. I also did some stuff.......................
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQxNywicHVyIjoiYmxvYl9pZCJ9fQ==--4f310513ec144b541f25f43db1a34b85ee67a32c/image.png)
+![](screenshots/8.png)
 
 
 ### Recording Links
@@ -135,7 +153,7 @@ I started on the improved readme and setting up cuz i reset my pc. I also did so
 ### Content
 
 Started on the QMK firmware and did some configuration on everything also json was from chatgpt cuz no idea....
-![Screenshot 2026-04-25 at 6.49.54 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Nzk0MywicHVyIjoiYmxvYl9pZCJ9fQ==--bc95517d8b610bd30e1b09e97eea071384f6f64c/Screenshot 2026-04-25 at 6.49.54 PM.png)
+![](screenshots/9.png)
 
 
 ### Recording Links
@@ -153,7 +171,7 @@ Started on the QMK firmware and did some configuration on everything also json w
 ### Content
 
 Welp i redid qmk with some help from chatgpt cuz no idea as usual and hi soup (also we need lore on soup)
-![Screenshot 2026-04-26 at 8.33.51 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODMyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--1dce43506664fba5aa6fd7f51130ef6c584a0204/Screenshot 2026-04-26 at 8.33.51 PM.png)
+![](screenshots/10.png)
 
 
 ### Recording Links
@@ -168,8 +186,7 @@ Welp i redid qmk with some help from chatgpt cuz no idea as usual and hi soup (a
 ### Content
 
 What i did was do some keystuff and rewire the pcb also don't mind the yt shorts i was locked in ;).
-![Screenshot 2026-04-27 at 6.58.41 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODc0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--204caef396e8fd6cbcd7876a43a2d44f5332c6bb/Screenshot 2026-04-27 at 6.58.41 PM.png)
-
+![](screenshots/11.png)
 
 ### Recording Links
 
@@ -184,7 +201,7 @@ What i did was do some keystuff and rewire the pcb also don't mind the yt shorts
 ### Content
 
 I mostly did qmk and some redesigns to the pcb and schematic also i FOUND OUT THAT THE WHOLE TIME MY MACROPAD WAS 4x3 NOT 3x4 LIKE I WANTED IT TO
-![Screenshot 2026-05-02 at 7.22.28 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTAzOTgsInB1ciI6ImJsb2JfaWQifX0=--1d34553d7b7cef978b756c62a225afdb502e861e/Screenshot 2026-05-02 at 7.22.28 PM.png)
+![](screenshots/12.png)
 
 
 ### Recording Links
@@ -200,7 +217,7 @@ I mostly did qmk and some redesigns to the pcb and schematic also i FOUND OUT TH
 ### Content
 
 I redid my pcb and started on my Bill of Materials which was ermm no idea but i did finish my PCB which was a pain
-![Screenshot 2026-05-04 at 8.28.11 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTEzMjAsInB1ciI6ImJsb2JfaWQifX0=--d319f156c3c784e36b34d75f704a5aff14e7b37c/Screenshot 2026-05-04 at 8.28.11 PM.png)
+![](screenshots/13png)
 
 
 ### Recording Links
@@ -215,7 +232,7 @@ I redid my pcb and started on my Bill of Materials which was ermm no idea but i 
 ### Content
 
 I locked in cuz i locked in and locked in some moreI locked in cuz i locked in and locked in some moreI locked in cuz i locked in and locked in some moreI locked in cuz i locked in and locked in some moreI locked in cuz i locked in and locked in some moreI locked in cuz i locked in and locked in some more
-![Screenshot 2026-05-16 at 3.55.36 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTYxMjcsInB1ciI6ImJsb2JfaWQifX0=--c2830f9e0acf9af648ca8b5dc921e5a883251eaf/Screenshot 2026-05-16 at 3.55.36 PM.png)
+![](screenshots/14.png)
 
 
 ### Recording Links
@@ -231,7 +248,7 @@ I locked in cuz i locked in and locked in some moreI locked in cuz i locked in a
 ### Content
 
 I did the zine and locked in I did the zine and locked in I did the zine and locked in I did the zine and locked in I did the zine and locked in I did the zine and locked in 
-![Screenshot 2026-05-16 at 6.53.59 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTYxNjQsInB1ciI6ImJsb2JfaWQifX0=--64ae8326729c80cb91e7cbe43d4489427c41bbe0/Screenshot 2026-05-16 at 6.53.59 PM.png)
+![](screenshots/15.png)
 
 
 ### Recording Links
@@ -247,7 +264,7 @@ I did the zine and locked in I did the zine and locked in I did the zine and loc
 
 Resolved some problems with the BOM and the .gitignore
 also locked on and locked inalso locked on and locked inalso locked on and locked inalso locked on and locked inalso locked on and locked inalso locked on and locked in
-![Screenshot 2026-05-16 at 7.15.09 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTYxNjcsInB1ciI6ImJsb2JfaWQifX0=--68d3e89f6540cb749e1fdfc80bc4d66db770e764/Screenshot 2026-05-16 at 7.15.09 PM.png)
+![](screenshots/16.png)
 
 
 ### Recording Links
@@ -262,7 +279,7 @@ also locked on and locked inalso locked on and locked inalso locked on and locke
 ### Content
 
 I improved the BOM and locked in on the Zine I also locked in and locked in i also locked in also i locked in
-![Screenshot 2026-05-17 at 9.42.29 AM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTY0NDAsInB1ciI6ImJsb2JfaWQifX0=--ec22e82b82c2eea2e0b25dccc61aa0d4168d4da0/Screenshot 2026-05-17 at 9.42.29 AM.png)
+![](screenshots/17.png)
 
 
 ### Recording Links
@@ -277,8 +294,7 @@ I improved the BOM and locked in on the Zine I also locked in and locked in i al
 ### Content
 
 I started on the Mac app that starts on the GUI app that allows for macros and all that to be added. I'm focusing on Mac because I use one.
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTkzNDQsInB1ciI6ImJsb2JfaWQifX0=--35edcac47ffc61bcac761e2a55c8e24cf0230b78/image.png)
-
+![](screenshots/18.png)
 
 ### Recording Links
 
@@ -292,8 +308,7 @@ I started on the Mac app that starts on the GUI app that allows for macros and a
 ### Content
 
 I have no idea what i didI have no idea what i didI have no idea what i didI have no idea what i didI have no idea what i didI have no idea what i didI have no idea what i did
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjI2NjIsInB1ciI6ImJsb2JfaWQifX0=--4b6cde19e703c615f4c40cb71eedebd4e511c2b8/image.png)
-
+![](screenshots/19.png)
 
 ### Recording Links
 
@@ -307,7 +322,7 @@ I have no idea what i didI have no idea what i didI have no idea what i didI hav
 ### Content
 
 hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjMzODMsInB1ciI6ImJsb2JfaWQifX0=--15c9604fc3ada89fc483b6c11e239cadf82e6acf/image.png)
+![](screenshots/20.png)
 
 
 ### Recording Links
@@ -324,7 +339,7 @@ hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 ### Content
 
 I made the app and errrrrrrrrrrrrrrrm i added stuff and even stuff and errrmmmmmmm i have no idea what i did
-![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQ3NjMsInB1ciI6ImJsb2JfaWQifX0=--975bc644fab67b611387710d2c4815671181243e/image.png)
+![](screenshots/21.png)
 
 
 ### Recording Links
