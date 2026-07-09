@@ -317,12 +317,7 @@ I did the zine and locked in I did the zine and locked in I did the zine and loc
 ### Recording 
 
 
-https://github.com/user-attachments/assets/115e73ab-1af3-43b6-a09c-c0729dc03603
-
-
-
-https://github.com/user-attachments/assets/3b24249a-153f-485a-b57a-3cb213326c62
-
+https://github.com/user-attachments/assets/f43cd9e3-8c47-428e-b722-fbd2b7100984
 
 
 https://github.com/user-attachments/assets/954e8bd3-e4c1-4b54-a571-e1df8eb83974
@@ -342,7 +337,7 @@ also locked on and locked inalso locked on and locked inalso locked on and locke
 
 
 ### Recording
-
+https://github.com/user-attachments/assets/f43cd9e3-8c47-428e-b722-fbd2b7100984
 
 ## Entry 17
 - ID: 7526
@@ -355,9 +350,13 @@ I improved the BOM and locked in on the Zine I also locked in and locked in i al
 ![](screenshots/17.png)
 
 
-### Recording Links
+### Recording 
 
-- https://lookout.hackclub.com/api/media/07636db7-50f9-4610-8507-8c7e3b36bd25/video.mp4
+
+
+https://github.com/user-attachments/assets/3ba05544-26f3-4687-8043-c6b016039b7c
+
+
 
 ## Entry 18
 - ID: 8788
@@ -387,7 +386,11 @@ I have no idea what i didI have no idea what i didI have no idea what i didI hav
 
 ### Recording Links
 
-- https://lookout.hackclub.com/api/media/dac27598-ad8d-487c-a8de-fdccf5e4c310/video.mp4
+
+
+https://github.com/user-attachments/assets/6a62fe59-a536-4930-953e-08cbd0ecb5c6
+
+
 
 ## Entry 20
 - ID: 10309
@@ -400,11 +403,18 @@ hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 ![](screenshots/20.png)
 
 
-### Recording Links
+### Recordings
 
-- https://public.lapse-hackclub.link/timelapses/UNW7OZQIMl9d/timelapse-UNW7OZQIMl9d.mp4
-- https://public.lapse-hackclub.link/timelapses/npn3xSt-_w-R/timelapse-npn3xSt-_w-R.mp4
-- https://public.lapse-hackclub.link/timelapses/LiLdZ-Yzjpv3/timelapse-LiLdZ-Yzjpv3.mp4
+
+
+https://github.com/user-attachments/assets/7c75d86c-c191-4f7b-87e9-901c9cc96a4d
+
+
+
+https://github.com/user-attachments/assets/5a662fc1-b099-4362-bc02-32b611950733
+
+https://github.com/user-attachments/assets/a5ff7b83-ce98-43f5-be6f-0f798a98679a
+
 
 ## Entry 21
 - ID: 10857
@@ -417,6 +427,10 @@ I made the app and errrrrrrrrrrrrrrrm i added stuff and even stuff and errrmmmmm
 ![](screenshots/21.png)
 
 
-### Recording Links
+### Recording
 
-- https://lookout.hackclub.com/api/media/6fd19993-cdae-41d8-bf97-752f18cc8ed3/video.mp4
+
+https://github.com/user-attachments/assets/716add3b-3df4-495d-8e96-675c9a3a6aa3
+
+
+
