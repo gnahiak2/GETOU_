@@ -22,9 +22,9 @@ I set up and got the github repo up and running had to start from scratch what t
 
 ![](screenshots/1.png)
 
-### Recording Links
+### Recording 
 
-- https://public.lapse-hackclub.link/timelapses/hnrDDN3nv-ST/timelapse-hnrDDN3nv-ST.mp4
+https://github.com/user-attachments/assets/4b639580-15e1-40c8-b246-9e96daf230af
 
 ---
 
@@ -40,10 +40,12 @@ I added all the keyboard switches and the Raspberry Pi Pico on the KiCad schemat
 
 ![](screenshots/2.png)
 
-### Recording Links
+### Recording 
 
-- https://public.lapse-hackclub.link/timelapses/bBfP6GxaJAgF/timelapse-bBfP6GxaJAgF.mp4
-- https://www.youtube.com/watch?v=JRkxtBLFJig
+
+https://github.com/user-attachments/assets/0304c561-d2d8-4682-a607-d05a755fb6cb
+
+
 
 ---
 
@@ -59,10 +61,11 @@ Decided that it would be a small 12-key macropad instead of a full keyboard. Als
 
 ![](screenshots/3.png)
 
-### Recording Links
+### Recording 
 
-- https://public.lapse-hackclub.link/timelapses/8MPm_k7TDoWb/timelapse-8MPm_k7TDoWb.mp4
-- https://www.youtube.com/watch?v=BcjEijC-wmY
+https://github.com/user-attachments/assets/1639315a-9482-4908-b2d0-b0e70101180c
+
+
 
 ---
 
@@ -77,9 +80,13 @@ I decided to use the xiao rp2040 instead of a full rpi pico to save space and ha
 ![](screenshots/4.png)
 
 
-### Recording Links
+### Recording 
 
-- https://public.lapse-hackclub.link/timelapses/_4UpIGFS-WeZ/timelapse-_4UpIGFS-WeZ.mp4
+
+https://github.com/user-attachments/assets/4867f539-38f7-45d7-9d5a-e228a84de5b1
+
+
+---
 
 ## Entry 5
 - ID: 101
@@ -91,9 +98,20 @@ I decided to use the xiao rp2040 instead of a full rpi pico to save space and ha
 Modified pcb and added step files and started on the cad and reorgainised the folder structure in the github repo to add the cad files and in future add the firmware and the accompanying electron app for cross compatibility
 ![](screenshots/5.png)
 
-### Recording Links
+### Recording 
 
-- https://public.lapse-hackclub.link/timelapses/R1OPdQKE8SHD/timelapse-R1OPdQKE8SHD.mp4
+
+
+
+https://github.com/user-attachments/assets/ec99dafa-c7b5-4260-951f-62c1e7c2d4cf
+
+
+
+https://github.com/user-attachments/assets/fa566024-ea0b-4e36-9556-6b5e3177ba28
+
+
+
+
 
 ## Entry 6
 - ID: 108
@@ -106,9 +124,20 @@ Finished the cad model and organised the folder structure in the github repositi
 ![](screenshots/6.png)
 
 
-### Recording Links
+### Recording
 
-- https://public.lapse-hackclub.link/timelapses/vlB26_7LLUw6/timelapse-vlB26_7LLUw6.mp4
+
+https://github.com/user-attachments/assets/b2bd104a-e59b-4ae0-aa98-b4a15d81e535
+
+
+
+https://github.com/user-attachments/assets/d535f8d9-37cd-48d7-b522-049e62d94f70
+
+
+
+https://github.com/user-attachments/assets/d98586f5-090e-4fba-b04d-b625a27149b7
+
+
 
 ## Entry 7
 - ID: 691
@@ -121,10 +150,14 @@ No idea what I did .............................................................
 ![](screenshots/7.png)
 
 
-### Recording Links
+### Recordings
 
-- https://public.lapse-hackclub.link/timelapses/vEwSTFyTIUqi/timelapse-vEwSTFyTIUqi.mp4
-- https://public.lapse-hackclub.link/timelapses/9B4qCTchG-zt/timelapse-9B4qCTchG-zt.mp4
+
+https://github.com/user-attachments/assets/20d60407-0aa7-4c38-bae7-f1570aa79f44
+
+
+https://github.com/user-attachments/assets/3be20f10-ac1c-4316-b24c-705cacbfd279
+
 
 ## Entry 8
 - ID: 1101
