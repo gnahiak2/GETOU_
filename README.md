@@ -1,171 +1,26 @@
-# getou_ — 3×4 RP2040 Macropad
+# SUPER AWESOME PROJECT!!!
+hey! this is text explaining what my awesome project is :)
+here's an AWESOME gif of my project!
+![awesome gif](https://user-cdn.hackclub-assets.com/019f0195-7b3c-7a6b-a8c9-ba589c575ae6/blahajmeow.gif)
+## HOW THIS WAS MADE
+Firmware was made in C via qmk, the accompanying app was made in swift with the help of chatgpt
 
-A compact fully programmable 12-key macropad powered by QMK firmware and built around the RP2040 microcontroller.
+## Here's how to compile and flash the project
+1. Clone the source code to your device
+```bash
+git clone https://github.com/gnahiak2/getou_.git
+cd getou_
+```
 
-<img src="Zine/Zine.png" alt="Zine!" style="width: 30%; height: auto;">
-
-this needs manual review because the hours are in fallout
-
-
----
-
-# 🧠 What is getou_?
-
-getou_ is a custom 3×4 mechanical macropad designed to provide fast access to shortcuts, macros, media controls, and custom workflows in an ultra-compact form factor.
-
-Built around the RP2040 platform and powered by QMK firmware, it is fully open-source and highly customizable.
-
-Unlike many commercial macropads, getou_ is:
-
-- fully programmable
-- open hardware
-- open firmware
-- lightweight and compact
-- easy to build and modify
-
-The project can function as:
-
-- a productivity macropad
-- a programmable numpad
-- a media controller
-- a shortcut board
-- a small stream deck alternative
-
----
-
-# 💡 Why I made this
-
-I wanted a macropad that was:
-
-- small but still powerful
-- fully customizable through QMK
-- inexpensive to build
-- easy to modify and experiment with
-
-Many existing macropads are expensive or locked behind proprietary software ecosystems.
-
-getou_ was created as an open alternative that anyone can build, flash, and customize.
-
-This project also gave me experience with:
-
-- PCB design
-- keyboard matrix design
-- QMK firmware
-- RP2040 development
-- CAD modeling
-- hardware prototyping
-
----
-
-# 🧩 Features
-
-- 12-key 3×4 layout
-- RP2040 based
-- QMK firmware support
-- Fully programmable layers/macros
-- NKRO support
-- USB-C connectivity
-- Easy UF2 firmware flashing
-- Compact custom PCB
-- Open-source hardware and firmware
-
----
-
-# ⌨️ Hardware
-
-## Main Components
-
-| Component | Description |
-|---|---|
-| RP2040 | Main microcontroller |
-| MX-compatible switches | Mechanical keyboard switches |
-| Diodes | Matrix isolation |
-| USB-C connector | Power + data |
-| Custom PCB | Designed in KiCad |
-
----
-
-# 🖼️ Images
-
-## Fully Assembled Macropad
-
-![Assembled]
-not yet
-
----
-
-## PCB
-
-<img src="Images/getou_pcbfront.png" alt="PCBFront" style="width: 30%; height: auto;">
-
-<img src="Images/getou_pcbback.png" alt="PCBBack" style="width: 30%; height: auto;">
-
----
-
-## 3D Render
-
-<img src="Images/getou_render.png" alt="Render" style="width: 30%; height: auto;">
-
----
-
-# 🔌 Firmware
-
-The macropad uses QMK firmware.
-
-## Building Firmware
-
+2. Compile firmware
 ```bash
 qmk compile -kb getou_ -km default
 ```
 
-## Flashing Firmware
+3. Plug in your USB-C Cable while holding the Boot button (marked B)
 
-1. Connect the RP2040 board via USB
-2. Enter bootloader mode
-3. Drag and drop the generated `.uf2` firmware file
+4. Drag the .uf2 file into the RP2040 and you're done!
 
----
 
-# 📁 Repository Structure
-
-```text
-getou_/
-├── CAD/                 # CAD files and models
-├── Firmware/            # QMK firmware files
-├── GetouCompanion/      # Companion software
-├── KiCAD/               # PCB design files
-├── images/              # README images
-├── Zine/                # Zine
-├── BOM.csv              # Bill of materials
-├── README.md
-└── LICENSE
-```
-
----
-
-# 🛠️ Companion Software
-
-The repository also includes `GetouCompanion`, a companion application used for interacting with and configuring the macropad.
-
-Current work includes:
-
-- profile management
-- configuration tools
-- improved usability features
-
----
-
-# 🚀 Future Plans
-
-- RGB support
-- Rotary encoder support
-- VIA/VIAL compatibility
-- More layout options
-- OLED display support
-- Improved desktop companion software
-
----
-
-# 📜 License
-
-Licensed under the MIT License.
+## AI DISCLOSURE
+AI was used for QMK
