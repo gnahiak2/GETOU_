@@ -4,7 +4,9 @@ A compact fully programmable 12-key macropad powered by QMK firmware and built a
 
 <img src="Zine/Zine.png" alt="Zine!" style="width: 30%; height: auto;">
 
-this needs manual review because the hours are in fallout
+> **⚠️ Manual Horizons Review Required**
+>
+> This project requires manual review because the hours were originally submitted through Fallout
 
 
 ---
