@@ -6,6 +6,7 @@ Here's the Zine!
   <img src="Zine/Zine.png" alt="Zine Cover" width="400">
 </div>
 
+( This needs manual review cuz fallout project )
 
 ## HOW THIS WAS MADE
 Firmware was made in C via qmk, the accompanying app was made in swift with the help of chatgpt
