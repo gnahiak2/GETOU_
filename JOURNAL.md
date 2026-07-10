@@ -22,9 +22,11 @@ I set up and got the github repo up and running had to start from scratch what t
 
 ![](screenshots/1.png)
 
-### Recording Links
+### Recording 
 
-- https://public.lapse-hackclub.link/timelapses/hnrDDN3nv-ST/timelapse-hnrDDN3nv-ST.mp4
+https://github.com/user-attachments/assets/4b639580-15e1-40c8-b246-9e96daf230af
+
+### Time logged: 29 mins
 
 ---
 
@@ -40,10 +42,13 @@ I added all the keyboard switches and the Raspberry Pi Pico on the KiCad schemat
 
 ![](screenshots/2.png)
 
-### Recording Links
+### Recording 
 
-- https://public.lapse-hackclub.link/timelapses/bBfP6GxaJAgF/timelapse-bBfP6GxaJAgF.mp4
-- https://www.youtube.com/watch?v=JRkxtBLFJig
+
+https://github.com/user-attachments/assets/0304c561-d2d8-4682-a607-d05a755fb6cb
+
+
+### Time logged: 1hr 14 mins
 
 ---
 
@@ -59,10 +64,12 @@ Decided that it would be a small 12-key macropad instead of a full keyboard. Als
 
 ![](screenshots/3.png)
 
-### Recording Links
+### Recording 
 
-- https://public.lapse-hackclub.link/timelapses/8MPm_k7TDoWb/timelapse-8MPm_k7TDoWb.mp4
-- https://www.youtube.com/watch?v=BcjEijC-wmY
+https://github.com/user-attachments/assets/1639315a-9482-4908-b2d0-b0e70101180c
+
+## Time logged: 1hr 24 mins
+
 
 ---
 
@@ -77,9 +84,14 @@ I decided to use the xiao rp2040 instead of a full rpi pico to save space and ha
 ![](screenshots/4.png)
 
 
-### Recording Links
+### Recording 
 
-- https://public.lapse-hackclub.link/timelapses/_4UpIGFS-WeZ/timelapse-_4UpIGFS-WeZ.mp4
+
+https://github.com/user-attachments/assets/4867f539-38f7-45d7-9d5a-e228a84de5b1
+
+### Time logged: 45 min tracked
+
+---
 
 ## Entry 5
 - ID: 101
@@ -91,9 +103,22 @@ I decided to use the xiao rp2040 instead of a full rpi pico to save space and ha
 Modified pcb and added step files and started on the cad and reorgainised the folder structure in the github repo to add the cad files and in future add the firmware and the accompanying electron app for cross compatibility
 ![](screenshots/5.png)
 
-### Recording Links
+### Recording s
 
-- https://public.lapse-hackclub.link/timelapses/R1OPdQKE8SHD/timelapse-R1OPdQKE8SHD.mp4
+
+
+
+
+https://github.com/user-attachments/assets/ec99dafa-c7b5-4260-951f-62c1e7c2d4cf
+
+
+
+https://github.com/user-attachments/assets/fa566024-ea0b-4e36-9556-6b5e3177ba28
+
+### Time logged: 2hr 10 mins
+
+---
+
 
 ## Entry 6
 - ID: 108
@@ -106,9 +131,21 @@ Finished the cad model and organised the folder structure in the github repositi
 ![](screenshots/6.png)
 
 
-### Recording Links
+### Recording
 
-- https://public.lapse-hackclub.link/timelapses/vlB26_7LLUw6/timelapse-vlB26_7LLUw6.mp4
+
+https://github.com/user-attachments/assets/b2bd104a-e59b-4ae0-aa98-b4a15d81e535
+
+
+
+https://github.com/user-attachments/assets/d535f8d9-37cd-48d7-b522-049e62d94f70
+
+
+
+https://github.com/user-attachments/assets/d98586f5-090e-4fba-b04d-b625a27149b7
+
+### Time logged: 43 mins
+---
 
 ## Entry 7
 - ID: 691
@@ -121,10 +158,14 @@ No idea what I did .............................................................
 ![](screenshots/7.png)
 
 
-### Recording Links
+### Recordings
 
-- https://public.lapse-hackclub.link/timelapses/vEwSTFyTIUqi/timelapse-vEwSTFyTIUqi.mp4
-- https://public.lapse-hackclub.link/timelapses/9B4qCTchG-zt/timelapse-9B4qCTchG-zt.mp4
+
+https://github.com/user-attachments/assets/20d60407-0aa7-4c38-bae7-f1570aa79f44
+
+
+https://github.com/user-attachments/assets/3be20f10-ac1c-4316-b24c-705cacbfd279
+
 
 ## Entry 8
 - ID: 1101
@@ -137,9 +178,13 @@ I started on the improved readme and setting up cuz i reset my pc. I also did so
 ![](screenshots/8.png)
 
 
-### Recording Links
+### Recording   
 
-- https://lookout.hackclub.com/api/media/e1c73dba-0156-41c3-a891-6a51f7b73b25/video.mp4
+https://github.com/user-attachments/assets/7bf74092-fb65-44dc-a874-4f7b137110b0
+
+### Time logged:   
+
+---
 
 ## Entry 9
 - ID: 3855
@@ -152,12 +197,24 @@ Started on the QMK firmware and did some configuration on everything also json w
 ![](screenshots/9.png)
 
 
-### Recording Links
+### Recordings
 
-- https://public.lapse-hackclub.link/timelapses/JPl2ekRHvlev/timelapse-JPl2ekRHvlev.mp4
-- https://public.lapse-hackclub.link/timelapses/fahpYW4PVdu4/timelapse-fahpYW4PVdu4.mp4
-- https://lookout.hackclub.com/api/media/05a08b21-7218-43d5-a05e-9865742be001/video.mp4
-- https://lookout.hackclub.com/api/media/013c247c-f0b1-4e27-bdeb-cd2791c49d92/video.mp4
+
+https://github.com/user-attachments/assets/58b35025-8b91-4782-9a79-96f5e5664cfa
+
+
+
+https://github.com/user-attachments/assets/a2fd0a02-180a-4dae-baac-f860e5d20511
+
+
+
+https://github.com/user-attachments/assets/b7c51d54-2e79-4df7-bc8b-14ab148d6bf0
+
+
+
+https://github.com/user-attachments/assets/c169091b-15d7-4152-9545-822c181068a4
+
+
 
 ## Entry 10
 - ID: 4034
@@ -170,9 +227,13 @@ Welp i redid qmk with some help from chatgpt cuz no idea as usual and hi soup (a
 ![](screenshots/10.png)
 
 
-### Recording Links
+### Recording
 
-- https://lookout.hackclub.com/api/media/e300d2eb-94ef-4c82-a875-8dadfff801f9/video.mp4
+
+https://github.com/user-attachments/assets/b06ecf86-e657-4ad3-b0d8-4860a4292321
+
+### Time logged: 19 mins
+---
 
 ## Entry 11
 - ID: 4207
@@ -184,10 +245,16 @@ Welp i redid qmk with some help from chatgpt cuz no idea as usual and hi soup (a
 What i did was do some keystuff and rewire the pcb also don't mind the yt shorts i was locked in ;).
 ![](screenshots/11.png)
 
-### Recording Links
+### Recordings
 
-- https://lookout.hackclub.com/api/media/347cbae2-bc9c-4312-9db0-a7a160ef91a1/video.mp4
-- https://lookout.hackclub.com/api/media/b76c407e-0472-4dac-8a5b-07af1c352629/video.mp4
+https://github.com/user-attachments/assets/ef5cb9c3-597d-4b90-af90-1d3896d78c02
+
+
+
+https://github.com/user-attachments/assets/15558251-3dbf-483d-94d6-2b365def775c
+
+### Time logged: 1hr 5 mins
+---
 
 ## Entry 12
 - ID: 5095
@@ -202,8 +269,15 @@ I mostly did qmk and some redesigns to the pcb and schematic also i FOUND OUT TH
 
 ### Recording Links
 
-- https://lookout.hackclub.com/api/media/689897bb-4c0c-40aa-a7fd-b032dca05e2a/video.mp4
-- https://lookout.hackclub.com/api/media/37d1e24e-8352-47ea-8518-24a8fd6a1848/video.mp4
+
+https://github.com/user-attachments/assets/6ad589a9-ed97-4621-8796-5ca4ea68abfe
+
+
+
+https://github.com/user-attachments/assets/ced72bab-8d82-4099-8e41-81d44980d9dc
+
+### Time logged: 1hr
+---
 
 ## Entry 13
 - ID: 5423
@@ -216,10 +290,13 @@ I redid my pcb and started on my Bill of Materials which was ermm no idea but i 
 ![](screenshots/13png)
 
 
-### Recording Links
+### Recording
 
-- https://lookout.hackclub.com/api/media/98e0c703-d99b-4629-940b-a8a66f56f0e2/video.mp4
 
+https://github.com/user-attachments/assets/6f78a9d8-e6f8-4f67-bf3f-dbfac2a7f3d1
+
+### Time logged: 1hr 7 mins
+---
 ## Entry 14
 - ID: 7381
 - Author: the rekrap2 wannabe gnahiak2 aka kaihang for my irl friends
@@ -231,10 +308,18 @@ I locked in cuz i locked in and locked in some moreI locked in cuz i locked in a
 ![](screenshots/14.png)
 
 
-### Recording Links
+### Recordings
 
-- https://lookout.hackclub.com/api/media/18ea10f9-5d24-4786-9eb0-c90ff7cf1f2b/video.mp4
-- https://lookout.hackclub.com/api/media/18741b1a-43b0-4223-8d85-9aa992278a64/video.mp4
+https://github.com/user-attachments/assets/f814c9cf-9ce5-42a1-99aa-9ea9a12aba9b
+
+
+
+https://github.com/user-attachments/assets/76057230-05ac-4855-8547-c159fd19b0dc
+
+
+### Time logged: 1hr
+
+---
 
 ## Entry 15
 - ID: 7393
@@ -247,9 +332,16 @@ I did the zine and locked in I did the zine and locked in I did the zine and loc
 ![](screenshots/15.png)
 
 
-### Recording Links
+### Recording 
 
-- https://lookout.hackclub.com/api/media/0ecdc574-44f8-4cac-8c64-dc59c182bac2/video.mp4
+
+https://github.com/user-attachments/assets/f43cd9e3-8c47-428e-b722-fbd2b7100984
+
+
+https://github.com/user-attachments/assets/954e8bd3-e4c1-4b54-a571-e1df8eb83974
+### Time logged: 25mins
+
+---
 
 ## Entry 16
 - ID: 7395
@@ -263,9 +355,12 @@ also locked on and locked inalso locked on and locked inalso locked on and locke
 ![](screenshots/16.png)
 
 
-### Recording Links
+### Recording
+https://github.com/user-attachments/assets/f43cd9e3-8c47-428e-b722-fbd2b7100984
 
-- https://lookout.hackclub.com/api/media/43af57f6-e810-4d0f-b23c-2c057992d192/video.mp4
+### Time logged: 8mins
+
+---
 
 ## Entry 17
 - ID: 7526
@@ -278,9 +373,13 @@ I improved the BOM and locked in on the Zine I also locked in and locked in i al
 ![](screenshots/17.png)
 
 
-### Recording Links
+### Recording 
 
-- https://lookout.hackclub.com/api/media/07636db7-50f9-4610-8507-8c7e3b36bd25/video.mp4
+
+
+https://github.com/user-attachments/assets/3ba05544-26f3-4687-8043-c6b016039b7c
+
+
 
 ## Entry 18
 - ID: 8788
@@ -292,9 +391,12 @@ I improved the BOM and locked in on the Zine I also locked in and locked in i al
 I started on the Mac app that starts on the GUI app that allows for macros and all that to be added. I'm focusing on Mac because I use one.
 ![](screenshots/18.png)
 
-### Recording Links
+### Recording
 
-- https://lookout.hackclub.com/api/media/f3aa8de4-b0e3-4ad8-bcbb-7ec656a78682/video.mp4
+https://github.com/user-attachments/assets/2aa5f13b-9eea-461f-8e39-0d6ac665289c
+### Time logged: 33 mins
+
+---
 
 ## Entry 19
 - ID: 10032
@@ -308,7 +410,12 @@ I have no idea what i didI have no idea what i didI have no idea what i didI hav
 
 ### Recording Links
 
-- https://lookout.hackclub.com/api/media/dac27598-ad8d-487c-a8de-fdccf5e4c310/video.mp4
+
+
+https://github.com/user-attachments/assets/6a62fe59-a536-4930-953e-08cbd0ecb5c6
+### Time logged: 1hr  
+
+--- 
 
 ## Entry 20
 - ID: 10309
@@ -321,11 +428,20 @@ hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 ![](screenshots/20.png)
 
 
-### Recording Links
+### Recordings
 
-- https://public.lapse-hackclub.link/timelapses/UNW7OZQIMl9d/timelapse-UNW7OZQIMl9d.mp4
-- https://public.lapse-hackclub.link/timelapses/npn3xSt-_w-R/timelapse-npn3xSt-_w-R.mp4
-- https://public.lapse-hackclub.link/timelapses/LiLdZ-Yzjpv3/timelapse-LiLdZ-Yzjpv3.mp4
+
+
+https://github.com/user-attachments/assets/7c75d86c-c191-4f7b-87e9-901c9cc96a4d
+
+
+
+https://github.com/user-attachments/assets/5a662fc1-b099-4362-bc02-32b611950733
+
+https://github.com/user-attachments/assets/a5ff7b83-ce98-43f5-be6f-0f798a98679a
+### Time logged: 1hr 2 mins
+
+---
 
 ## Entry 21
 - ID: 10857
@@ -338,6 +454,15 @@ I made the app and errrrrrrrrrrrrrrrm i added stuff and even stuff and errrmmmmm
 ![](screenshots/21.png)
 
 
-### Recording Links
+### Recording
 
-- https://lookout.hackclub.com/api/media/6fd19993-cdae-41d8-bf97-752f18cc8ed3/video.mp4
+
+https://github.com/user-attachments/assets/716add3b-3df4-495d-8e96-675c9a3a6aa3
+
+
+
+### Time logged: 1hr 10 mins
+
+---
+
+### Total time logged:  20hr 18 mins
