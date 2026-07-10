@@ -1,7 +1,12 @@
-# SUPER AWESOME PROJECT!!!
-hey! this is text explaining what my awesome project is :)
-here's an AWESOME gif of my project!
-![awesome gif](https://user-cdn.hackclub-assets.com/019f0195-7b3c-7a6b-a8c9-ba589c575ae6/blahajmeow.gif)
+# getou_
+Its pretty much a hackpad but i made it myself
+
+Here's the Zine!
+<div align="center">
+  <img src="Zine/Zine.png" alt="Zine Cover" width="400">
+</div>
+
+
 ## HOW THIS WAS MADE
 Firmware was made in C via qmk, the accompanying app was made in swift with the help of chatgpt
 
