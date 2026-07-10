@@ -26,6 +26,8 @@ I set up and got the github repo up and running had to start from scratch what t
 
 https://github.com/user-attachments/assets/4b639580-15e1-40c8-b246-9e96daf230af
 
+### Time logged: 29 mins
+
 ---
 
 ## Entry 2
@@ -46,6 +48,7 @@ I added all the keyboard switches and the Raspberry Pi Pico on the KiCad schemat
 https://github.com/user-attachments/assets/0304c561-d2d8-4682-a607-d05a755fb6cb
 
 
+### Time logged: 1hr 14 mins
 
 ---
 
@@ -65,6 +68,7 @@ Decided that it would be a small 12-key macropad instead of a full keyboard. Als
 
 https://github.com/user-attachments/assets/1639315a-9482-4908-b2d0-b0e70101180c
 
+## Time logged: 1hr 24 mins
 
 
 ---
@@ -85,6 +89,7 @@ I decided to use the xiao rp2040 instead of a full rpi pico to save space and ha
 
 https://github.com/user-attachments/assets/4867f539-38f7-45d7-9d5a-e228a84de5b1
 
+### Time logged: 45 min tracked
 
 ---
 
@@ -98,7 +103,8 @@ https://github.com/user-attachments/assets/4867f539-38f7-45d7-9d5a-e228a84de5b1
 Modified pcb and added step files and started on the cad and reorgainised the folder structure in the github repo to add the cad files and in future add the firmware and the accompanying electron app for cross compatibility
 ![](screenshots/5.png)
 
-### Recording 
+### Recording s
+
 
 
 
@@ -109,8 +115,9 @@ https://github.com/user-attachments/assets/ec99dafa-c7b5-4260-951f-62c1e7c2d4cf
 
 https://github.com/user-attachments/assets/fa566024-ea0b-4e36-9556-6b5e3177ba28
 
+### Time logged: 2hr 10 mins
 
-
+---
 
 
 ## Entry 6
@@ -137,7 +144,8 @@ https://github.com/user-attachments/assets/d535f8d9-37cd-48d7-b522-049e62d94f70
 
 https://github.com/user-attachments/assets/d98586f5-090e-4fba-b04d-b625a27149b7
 
-
+### Time logged: 43 mins
+---
 
 ## Entry 7
 - ID: 691
@@ -170,9 +178,13 @@ I started on the improved readme and setting up cuz i reset my pc. I also did so
 ![](screenshots/8.png)
 
 
-### Recording Links
+### Recording   
 
-- https://lookout.hackclub.com/api/media/e1c73dba-0156-41c3-a891-6a51f7b73b25/video.mp4
+https://github.com/user-attachments/assets/7bf74092-fb65-44dc-a874-4f7b137110b0
+
+### Time logged:   
+
+---
 
 ## Entry 9
 - ID: 3855
@@ -220,7 +232,8 @@ Welp i redid qmk with some help from chatgpt cuz no idea as usual and hi soup (a
 
 https://github.com/user-attachments/assets/b06ecf86-e657-4ad3-b0d8-4860a4292321
 
-
+### Time logged: 19 mins
+---
 
 ## Entry 11
 - ID: 4207
@@ -240,7 +253,8 @@ https://github.com/user-attachments/assets/ef5cb9c3-597d-4b90-af90-1d3896d78c02
 
 https://github.com/user-attachments/assets/15558251-3dbf-483d-94d6-2b365def775c
 
-
+### Time logged: 1hr 5 mins
+---
 
 ## Entry 12
 - ID: 5095
@@ -262,7 +276,8 @@ https://github.com/user-attachments/assets/6ad589a9-ed97-4621-8796-5ca4ea68abfe
 
 https://github.com/user-attachments/assets/ced72bab-8d82-4099-8e41-81d44980d9dc
 
-
+### Time logged: 1hr
+---
 
 ## Entry 13
 - ID: 5423
@@ -280,8 +295,8 @@ I redid my pcb and started on my Bill of Materials which was ermm no idea but i 
 
 https://github.com/user-attachments/assets/6f78a9d8-e6f8-4f67-bf3f-dbfac2a7f3d1
 
-
-
+### Time logged: 1hr 7 mins
+---
 ## Entry 14
 - ID: 7381
 - Author: the rekrap2 wannabe gnahiak2 aka kaihang for my irl friends
@@ -302,6 +317,9 @@ https://github.com/user-attachments/assets/f814c9cf-9ce5-42a1-99aa-9ea9a12aba9b
 https://github.com/user-attachments/assets/76057230-05ac-4855-8547-c159fd19b0dc
 
 
+### Time logged: 1hr
+
+---
 
 ## Entry 15
 - ID: 7393
@@ -321,8 +339,9 @@ https://github.com/user-attachments/assets/f43cd9e3-8c47-428e-b722-fbd2b7100984
 
 
 https://github.com/user-attachments/assets/954e8bd3-e4c1-4b54-a571-e1df8eb83974
+### Time logged: 25mins
 
-
+---
 
 ## Entry 16
 - ID: 7395
@@ -338,6 +357,10 @@ also locked on and locked inalso locked on and locked inalso locked on and locke
 
 ### Recording
 https://github.com/user-attachments/assets/f43cd9e3-8c47-428e-b722-fbd2b7100984
+
+### Time logged: 8mins
+
+---
 
 ## Entry 17
 - ID: 7526
@@ -371,8 +394,9 @@ I started on the Mac app that starts on the GUI app that allows for macros and a
 ### Recording
 
 https://github.com/user-attachments/assets/2aa5f13b-9eea-461f-8e39-0d6ac665289c
+### Time logged: 33 mins
 
-
+---
 
 ## Entry 19
 - ID: 10032
@@ -389,8 +413,9 @@ I have no idea what i didI have no idea what i didI have no idea what i didI hav
 
 
 https://github.com/user-attachments/assets/6a62fe59-a536-4930-953e-08cbd0ecb5c6
+### Time logged: 1hr  
 
-
+--- 
 
 ## Entry 20
 - ID: 10309
@@ -414,7 +439,9 @@ https://github.com/user-attachments/assets/7c75d86c-c191-4f7b-87e9-901c9cc96a4d
 https://github.com/user-attachments/assets/5a662fc1-b099-4362-bc02-32b611950733
 
 https://github.com/user-attachments/assets/a5ff7b83-ce98-43f5-be6f-0f798a98679a
+### Time logged: 1hr 2 mins
 
+---
 
 ## Entry 21
 - ID: 10857
@@ -434,3 +461,8 @@ https://github.com/user-attachments/assets/716add3b-3df4-495d-8e96-675c9a3a6aa3
 
 
 
+### Time logged: 1hr 10 mins
+
+---
+
+### Total time logged:  20hr 18 mins
